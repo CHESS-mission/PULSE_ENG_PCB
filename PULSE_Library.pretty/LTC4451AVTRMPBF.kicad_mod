@@ -316,7 +316,7 @@
 		(uuid "28dfc006-e33a-4404-aa8d-25c553dfafe6")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/AlexR/OneDrive/Desktop/EPFL/EST/KiCad/LIB_LTC4451AV#TRMPBF/LTC4451AV#TRMPBF/3D/LTC4451AV#TRMPBF.stp"
+	(model "${KIPRJMOD}/PULSE_3D_Models//LTC4451AV#TRMPBF.stp"
 		(offset
 			(xyz 0 0 0)
 		)

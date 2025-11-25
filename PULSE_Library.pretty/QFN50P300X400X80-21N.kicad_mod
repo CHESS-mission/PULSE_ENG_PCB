@@ -292,7 +292,7 @@
 		(uuid "7049be5a-2142-45d2-9beb-3363303ae0fc")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/AlexR/OneDrive/Desktop/EPFL/EST/KiCad/LIB_TPS25940ARVCR/TPS25940ARVCR/3D/TPS25940ARVCR.stp"
+	(model "${KIPRJMOD}/PULSE_3D_Models/TPS25940ARVCR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

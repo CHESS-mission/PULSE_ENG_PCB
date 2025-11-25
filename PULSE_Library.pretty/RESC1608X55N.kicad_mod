@@ -167,7 +167,7 @@
 		(uuid "31408ad1-cc63-4524-9f4f-d2d0b26829b2")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/PDU_3D_Models/RT0603BRB0710KL.stp"
+	(model "${KIPRJMOD}/PULSE_3D_Models/RT0603BRB0710KL.stp"
 		(offset
 			(xyz 0 0 0.5)
 		)
