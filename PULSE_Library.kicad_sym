@@ -27,7 +27,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "INDPM4440X200N"
+		(property "Footprint" "PULSE_Library:INDPM4440X200N"
 			(at 8.89 -96.19 0)
 			(effects
 				(font
@@ -230,7 +230,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "CAPC2012X145N"
+		(property "Footprint" "PULSE_Library:CAPC2012X145N"
 			(at 8.89 -96.19 0)
 			(effects
 				(font
@@ -422,7 +422,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "C0603"
+		(property "Footprint" "PULSE_Library:C0603"
 			(at 8.89 -96.19 0)
 			(effects
 				(font
@@ -614,7 +614,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "C1812"
+		(property "Footprint" "PULSE_Library:C1812"
 			(at 8.89 -96.19 0)
 			(effects
 				(font
@@ -803,7 +803,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "SOP50P490X110-10N"
+		(property "Footprint" "PULSE_Library:SOP50P490X110-10N"
 			(at 26.67 -94.92 0)
 			(effects
 				(font
@@ -1099,7 +1099,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "PULSE_Library:SOIC127P600X175-8N"
 			(at 34.29 -94.92 0)
 			(effects
 				(font
@@ -1359,7 +1359,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "PULSE_Library:SOIC127P600X175-8N"
 			(at 34.29 -94.92 0)
 			(effects
 				(font
@@ -1619,7 +1619,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LTC4451AVTRMPBF"
+		(property "Footprint" "PULSE_Library:LTC4451AVTRMPBF"
 			(at 29.21 -94.92 0)
 			(effects
 				(font
@@ -2059,7 +2059,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "PULSE_Library:SOIC127P600X175-8N"
 			(at 26.67 -94.92 0)
 			(effects
 				(font
@@ -2514,7 +2514,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "RESC2013X60N"
+		(property "Footprint" "PULSE_Library:RESC2013X60N"
 			(at 13.97 -96.19 0)
 			(effects
 				(font
@@ -2669,7 +2669,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" "PULSE_Library:RESC2013X60N"
 			(at 13.97 -96.19 0)
 			(effects
 				(font
@@ -2821,7 +2821,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "QFN50P300X400X80-21N"
+		(property "Footprint" "PULSE_Library:QFN50P300X400X80-21N"
 			(at 26.67 -87.3 0)
 			(effects
 				(font
