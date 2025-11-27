@@ -430,7 +430,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -617,6 +617,22 @@
     [
       "2de881bb-2e2a-47f9-96ed-b3393fa36b98",
       "Root"
+    ],
+    [
+      "1535187e-f0f7-4a3a-91c3-0cc2f5fc1f0b",
+      "PDU"
+    ],
+    [
+      "8bf4b950-7d1e-4a2d-ad03-078c0e232a33",
+      "EPS_Power_Supply"
+    ],
+    [
+      "32fac869-3c72-4ec8-a514-1800b5db5371",
+      "PCU"
+    ],
+    [
+      "19953041-dda3-483f-8656-1a9ea0a022e8",
+      "Control"
     ]
   ],
   "text_variables": {}

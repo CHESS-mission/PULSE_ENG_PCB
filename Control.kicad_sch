@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "8ae12e0c-2d7b-414e-9ce0-77d730429fe4")
+	(paper "A4")
+	(title_block
+		(date "2025-11-27")
+		(rev "v4")
+		(company "EPFL Spacecraft Team")
+	)
+	(lib_symbols)
+)

@@ -1,4 +1,4 @@
-26135527712050041
+26137268635573919
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -72967,6 +72967,13 @@ Capacitor
 0
 2
 2
+PULSE_Library
+ESQ-126-Y-X-D
+ESQ-126-Y-X-D
+Connector
+0
+52
+52
 PULSE_Library
 INDPM4440X200N
 AMDLA4020S-220MT
