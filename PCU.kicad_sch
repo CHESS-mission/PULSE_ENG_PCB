@@ -10,12 +10,343 @@
 		(company "EPFL Spacecraft Team")
 	)
 	(lib_symbols
-		(symbol "PULSE_Library:EPC2152"
+		(symbol "PULSE_Library:C3216X8L1E106K160AE"
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0.508 48.4124 0)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "C3216X8L1E106K160AE"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CAPC3216X180N"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "MULTILAYER CERAMIC CHIP CAPACITORS, 3216, Commercial grade, general (Up to 75V)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.8"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "810-C3216X8L106K160E"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/C3216X8L1E106K160AE?qs=P1JMDcb91o4c0as04x%252BvyQ%3D%3D"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "TDK"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "C3216X8L1E106K160AE"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "C3216X8L1E106K160AE_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:EPC2152"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U1"
+				(at 28.2961 50.8 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -23,7 +354,7 @@
 				)
 			)
 			(property "Value" "EPC2152"
-				(at 4.1148 46.5836 0)
+				(at 28.2961 48.26 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -39,7 +370,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://epc-co.com/epc/portals/0/epc/documents/datasheets/EPC2152_datasheet.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -49,7 +380,7 @@
 				)
 			)
 			(property "Description" "80V 12mE Sym HB IC with UVLO & ESDs."
-				(at 20.3708 44.6024 0)
+				(at 28.2961 45.72 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1317,15 +1648,6 @@
 						(justify left bottom)
 					)
 				)
-				(text "LSin"
-					(at 0.254 10.16 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify left bottom)
-					)
-				)
 				(text "Vdd12"
 					(at 0.508 38.354 0)
 					(effects
@@ -1335,8 +1657,8 @@
 						(justify left bottom)
 					)
 				)
-				(text "Vss"
-					(at 0.508 3.048 0)
+				(text "LSin"
+					(at 0.508 10.922 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1481,15 +1803,6 @@
 				)
 				(text "SW"
 					(at 47.244 18.034 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "Vss"
-					(at 47.244 2.794 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1750,37 +2063,552 @@
 					)
 				)
 			)
+			(symbol "EPC2152_1_1"
+				(text "GND\n"
+					(at 1.27 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "GND\n"
+					(at 45.72 3.048 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left bottom)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 167.64 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "008b9525-ad57-42bb-9011-565ec8a4c1e3")
+	)
+	(junction
+		(at 68.58 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "484da329-54f0-4c8f-b2af-347e1eb9d9ae")
+	)
+	(junction
+		(at 167.64 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f9f6544-8c37-4e1d-bd05-0774c0c01f60")
+	)
+	(junction
+		(at 153.67 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa263d18-84a5-41e6-a74a-eaff5d99fd2d")
+	)
+	(junction
+		(at 68.58 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4f1381d-4f09-43e5-8874-514fe6080bfb")
+	)
+	(junction
+		(at 177.8 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e834f8b1-63a0-473f-8343-b3aea57ed604")
+	)
+	(wire
+		(pts
+			(xy 177.8 81.28) (xy 177.8 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17d23055-b16f-4ae4-9d17-ee1c9834bb0e")
+	)
+	(wire
+		(pts
+			(xy 63.5 52.07) (xy 68.58 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fb042b2-c734-421e-a377-441c4e545804")
+	)
+	(wire
+		(pts
+			(xy 177.8 73.66) (xy 177.8 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a160621-4696-4e48-be14-6bf79e3f1e6d")
+	)
+	(wire
+		(pts
+			(xy 153.67 72.39) (xy 157.48 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bc3ccb0-a734-466e-bbdf-2893c7a708a4")
+	)
+	(wire
+		(pts
+			(xy 80.01 80.01) (xy 86.36 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46de89bf-bfd2-4cd6-9b18-d031f8dc3224")
+	)
+	(wire
+		(pts
+			(xy 153.67 68.58) (xy 153.67 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a043b52-0e18-4e62-a34f-d6ceaf0af5f4")
+	)
+	(wire
+		(pts
+			(xy 147.32 87.63) (xy 167.64 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52703438-d3c8-46ef-a80b-3ab2277b0d94")
+	)
+	(wire
+		(pts
+			(xy 167.64 87.63) (xy 177.8 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55b76872-065e-41fd-8855-6d8bfc160b35")
+	)
+	(wire
+		(pts
+			(xy 167.64 59.69) (xy 177.8 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "575ac2b1-651d-45c2-b96d-2ce40ab7d108")
+	)
+	(wire
+		(pts
+			(xy 68.58 76.2) (xy 68.58 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c37ba22-a2ad-4347-bc81-14e96d46ceaa")
+	)
+	(wire
+		(pts
+			(xy 147.32 52.07) (xy 153.67 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d113f82-3e80-49b5-a8a5-0042e62bc80a")
+	)
+	(wire
+		(pts
+			(xy 80.01 64.77) (xy 86.36 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d521098-ba14-4c9c-822b-50991ff38cca")
+	)
+	(wire
+		(pts
+			(xy 147.32 59.69) (xy 167.64 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74804a7a-2196-4df5-b31e-5a4784742669")
+	)
+	(wire
+		(pts
+			(xy 165.1 72.39) (xy 177.8 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79e578e2-8e75-42ba-8eb6-ed183992227c")
+	)
+	(wire
+		(pts
+			(xy 167.64 87.63) (xy 167.64 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80fc1865-6d28-4388-9ed6-42bb1fcacf35")
+	)
+	(wire
+		(pts
+			(xy 177.8 72.39) (xy 185.42 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8717417e-a3ee-4b3b-be8b-41f05c456eff")
+	)
+	(wire
+		(pts
+			(xy 68.58 68.58) (xy 68.58 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a39906c2-be91-4c83-978a-241917c541ed")
+	)
+	(wire
+		(pts
+			(xy 147.32 72.39) (xy 153.67 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad0faa4c-6aa8-486f-b6b4-964427bb823d")
+	)
+	(wire
+		(pts
+			(xy 68.58 52.07) (xy 86.36 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0fe5921-05d6-4ce8-916e-2628ba24403f")
+	)
+	(wire
+		(pts
+			(xy 167.64 73.66) (xy 167.64 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c542f9ce-deda-4404-b50c-4776bcce4cfa")
+	)
+	(wire
+		(pts
+			(xy 153.67 52.07) (xy 153.67 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d34aa5d6-2614-486e-b43c-9e50651523c3")
+	)
+	(wire
+		(pts
+			(xy 68.58 87.63) (xy 86.36 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dee38ab4-c77f-4e78-8504-77dfa9913bc4")
+	)
+	(wire
+		(pts
+			(xy 63.5 87.63) (xy 68.58 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f793a713-79ae-441a-a336-36582c2016d9")
+	)
+	(hierarchical_label "V_in"
+		(shape input)
+		(at 177.8 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "141062c3-eda9-4485-9f7e-ce1ca326eccc")
+	)
+	(hierarchical_label "gnd"
+		(shape input)
+		(at 63.5 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ccba1f3-29a3-4b57-b3e1-a8255b82cc8a")
+	)
+	(hierarchical_label "pwm_H"
+		(shape input)
+		(at 80.01 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "682d00f3-fd16-4aa6-a565-2baac6600b71")
+	)
+	(hierarchical_label "pwm_L"
+		(shape input)
+		(at 80.01 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c3ab393-1125-4fbd-9585-0fea5b2ab6bb")
+	)
+	(hierarchical_label "V_out"
+		(shape output)
+		(at 185.42 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c56b8ea-0c98-4975-b75e-1193d27d648f")
+	)
+	(hierarchical_label "V_in_12V"
+		(shape input)
+		(at 63.5 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cbe8992a-1a00-4fb1-9bec-f4cb4be182c8")
+	)
 	(symbol
-		(lib_id "PULSE_Library:EPC2152")
-		(at 93.98 102.87 0)
+		(lib_id "SamacSys_Parts:C")
+		(at 177.8 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92c96ce4-c97f-49a5-8d0d-5ffc81450136")
-		(property "Reference" "U2"
-			(at 122.2761 52.07 0)
+		(uuid "243131fb-1340-49b0-b63b-fbe40b930196")
+		(property "Reference" "C10"
+			(at 180.34 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "EPC2152"
-			(at 122.2761 54.61 0)
+		(property "Value" "10uF"
+			(at 180.34 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "PULSE_Library:D0122"
-			(at 108.3564 56.2356 0)
+		(property "Footprint" ""
+			(at 178.7652 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1788,8 +2616,404 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 93.98 102.87 0)
+		(property "Datasheet" "~"
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0baa4101-e8ec-47ab-ab88-06669e740135")
+		)
+		(pin "1"
+			(uuid "4a1d8122-acb7-47cf-b836-d04f34adf899")
+		)
+		(instances
+			(project "PULSE_ENG"
+				(path "/2de881bb-2e2a-47f9-96ed-b3393fa36b98/32fac869-3c72-4ec8-a514-1800b5db5371"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PULSE_Library:C3216X8L1E106K160AE")
+		(at 40.64 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4de76eea-aeee-4903-bab3-92d619c65599")
+		(property "Reference" "C11"
+			(at 46.99 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C3216X8L1E106K160AE"
+			(at 46.99 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CAPC3216X180N"
+			(at 49.53 154.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf"
+			(at 49.53 254.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MULTILAYER CERAMIC CHIP CAPACITORS, 3216, Commercial grade, general (Up to 75V)"
+			(at 40.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.8"
+			(at 49.53 454.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "810-C3216X8L106K160E"
+			(at 49.53 554.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/C3216X8L1E106K160AE?qs=P1JMDcb91o4c0as04x%252BvyQ%3D%3D"
+			(at 49.53 654.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 49.53 754.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C3216X8L1E106K160AE"
+			(at 49.53 854.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1d9d9ec0-4731-4d5f-9020-55e501c16980")
+		)
+		(pin "1"
+			(uuid "b6445c9e-0c8d-4521-904d-855eda37f3f0")
+		)
+		(instances
+			(project ""
+				(path "/2de881bb-2e2a-47f9-96ed-b3393fa36b98/32fac869-3c72-4ec8-a514-1800b5db5371"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:C")
+		(at 153.67 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "666b8da9-d699-4697-87e4-20800bed8829")
+		(property "Reference" "C8"
+			(at 157.48 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 157.734 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.6352 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 153.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f10ef4a-d545-4ed4-a343-d0327c082a26")
+		)
+		(pin "1"
+			(uuid "7b882aef-1425-4ee0-a2a5-de226a3a135b")
+		)
+		(instances
+			(project "PULSE_ENG"
+				(path "/2de881bb-2e2a-47f9-96ed-b3393fa36b98/32fac869-3c72-4ec8-a514-1800b5db5371"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:C")
+		(at 167.64 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74dfd071-e48c-431e-a098-8ddabbbc6d11")
+		(property "Reference" "C9"
+			(at 170.942 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 169.672 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.6052 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d57fdf57-dc5e-48f8-8364-eba728d08e9c")
+		)
+		(pin "1"
+			(uuid "978497d3-1ed6-419d-ac0d-c540491accda")
+		)
+		(instances
+			(project "PULSE_ENG"
+				(path "/2de881bb-2e2a-47f9-96ed-b3393fa36b98/32fac869-3c72-4ec8-a514-1800b5db5371"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:C")
+		(at 68.58 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ded31a1-3f5f-47f5-8ab2-2df0989b77a3")
+		(property "Reference" "C7"
+			(at 72.39 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 72.39 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.6148 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 68.58 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c702128a-7e9b-4b3c-aff1-117ebd257fc1")
+		)
+		(pin "1"
+			(uuid "3cdc2203-d218-49c2-9711-18f4f608ffeb")
+		)
+		(instances
+			(project "PULSE_ENG"
+				(path "/2de881bb-2e2a-47f9-96ed-b3393fa36b98/32fac869-3c72-4ec8-a514-1800b5db5371"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:EPC2152")
+		(at 91.44 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b327dd5b-b888-449b-bd8d-c38c55d7fc43")
+		(property "Reference" "U4"
+			(at 119.7361 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EPC2152"
+			(at 119.7361 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EPC_FETs:D0122"
+			(at 105.8164 43.5356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://epc-co.com/epc/portals/0/epc/documents/datasheets/EPC2152_datasheet.pdf"
+			(at 91.44 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1798,53 +3022,121 @@
 			)
 		)
 		(property "Description" "80V 12mE Sym HB IC with UVLO & ESDs."
-			(at 122.2761 57.15 0)
+			(at 119.7361 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(pin "8"
-			(uuid "ae001d6c-c3eb-4793-8bd2-df38aa36aa68")
-		)
-		(pin "4"
-			(uuid "57b19da8-863e-47a3-8e56-45a0e7f44238")
-		)
-		(pin "3"
-			(uuid "37dfa895-ecc5-4d0c-acc0-88ceb8ab8413")
-		)
 		(pin "2"
-			(uuid "d0ad90fe-2e78-4c2f-9aa4-6ae34a6c10c7")
+			(uuid "de82bc5e-9871-4e42-8575-de7cc310fb78")
 		)
 		(pin "6"
-			(uuid "330c910b-2759-4be1-aee3-b66c0ce0d418")
+			(uuid "74487bee-29f9-4c0a-8c6a-1e2ef7cfd851")
 		)
-		(pin "12"
-			(uuid "7b91f7f0-41e9-4cd1-ac6f-298181fe1064")
+		(pin "4"
+			(uuid "bd13f814-a10b-4052-9577-cf8d0bc2a088")
 		)
-		(pin "7"
-			(uuid "9d05e7d2-c2a6-4d41-b459-e6f00424d7fb")
+		(pin "3"
+			(uuid "07707974-7c26-4fdc-aaae-ed7e6f8af51f")
 		)
-		(pin "1"
-			(uuid "a44b54ee-71cc-4b1e-a84c-a821bc21f32d")
+		(pin "8"
+			(uuid "74628200-7d0c-4cdb-b19a-5c44c1af1771")
 		)
 		(pin "5"
-			(uuid "84494343-2e57-4518-b629-bf9eb8624c65")
+			(uuid "29a358e0-824d-4e3e-b038-ae00cc9c743a")
 		)
 		(pin "10"
-			(uuid "7bf8d563-c60e-485b-8617-580f6f6cbe1b")
+			(uuid "43f1a7da-4ae8-4271-aa5d-d9ef0b580674")
+		)
+		(pin "7"
+			(uuid "6c7b0995-440f-4a45-9d7e-7f37671ed686")
+		)
+		(pin "1"
+			(uuid "241ac91a-6699-4c89-8f5c-de7fb2897399")
 		)
 		(pin "9"
-			(uuid "38d1273b-8bef-4beb-87cc-93ea5edbd5da")
+			(uuid "1ef15543-7714-4af6-975d-5f10d55aabfa")
 		)
 		(pin "11"
-			(uuid "b51f7a99-f9b3-4a8a-858f-ce1878fd9c62")
+			(uuid "2f6a2591-e848-4adc-8192-9171a4625767")
+		)
+		(pin "12"
+			(uuid "afa66e43-b131-40b6-a419-ecec4792ec6c")
 		)
 		(instances
-			(project ""
+			(project "PULSE_ENG"
 				(path "/2de881bb-2e2a-47f9-96ed-b3393fa36b98/32fac869-3c72-4ec8-a514-1800b5db5371"
-					(reference "U2")
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:L")
+		(at 161.29 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce649e0a-d9bb-434a-a27b-84c2dcf5709c")
+		(property "Reference" "L2"
+			(at 161.29 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47"
+			(at 161.29 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 161.29 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75572da0-14ba-4ecf-b0c4-f71983e599db")
+		)
+		(pin "2"
+			(uuid "54b4c931-58c5-475b-8c0c-a525d6189f35")
+		)
+		(instances
+			(project "PULSE_ENG"
+				(path "/2de881bb-2e2a-47f9-96ed-b3393fa36b98/32fac869-3c72-4ec8-a514-1800b5db5371"
+					(reference "L2")
 					(unit 1)
 				)
 			)
