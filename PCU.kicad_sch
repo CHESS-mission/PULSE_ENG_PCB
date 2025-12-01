@@ -10,6 +10,209 @@
 		(company "EPFL Spacecraft Team")
 	)
 	(lib_symbols
+		(symbol "PULSE_Library:AMDLA4020S-220MT"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "AMDLA4020S-220MT"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "PULSE_Library:INDPM4440X200N"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://abracon.com/datasheets/AMDLA4020S.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "FIXED IND 22UH 1.2A 320MOHM SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "2"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "815-AMDLA4020S-220MT"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ABRACON/AMDLA4020S-220MT?qs=DPoM0jnrROWKifSgrOC28g%3D%3D"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "ABRACON"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "AMDLA4020S-220MT"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "AMDLA4020S-220MT_1_1"
+				(polyline
+					(pts
+						(xy 3.048 2.54) (xy 3.048 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 4.064 3.556)
+					(end 6.096 -3.556)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PULSE_Library:C3216X8L1E106K160AE"
 			(pin_names
 				(hide yes)
@@ -2261,6 +2464,12 @@
 		(uuid "484da329-54f0-4c8f-b2af-347e1eb9d9ae")
 	)
 	(junction
+		(at 177.8 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f1f82f6-2b22-4d31-b7df-50c3a7c7cfaf")
+	)
+	(junction
 		(at 167.64 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2278,21 +2487,15 @@
 		(color 0 0 0 0)
 		(uuid "e4f1381d-4f09-43e5-8874-514fe6080bfb")
 	)
-	(junction
-		(at 177.8 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e834f8b1-63a0-473f-8343-b3aea57ed604")
-	)
 	(wire
 		(pts
-			(xy 177.8 81.28) (xy 177.8 87.63)
+			(xy 177.8 72.39) (xy 185.42 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "17d23055-b16f-4ae4-9d17-ee1c9834bb0e")
+		(uuid "28fad214-2f66-457a-a3e2-7b4972ad75e9")
 	)
 	(wire
 		(pts
@@ -2303,16 +2506,6 @@
 			(type default)
 		)
 		(uuid "2fb042b2-c734-421e-a377-441c4e545804")
-	)
-	(wire
-		(pts
-			(xy 177.8 73.66) (xy 177.8 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a160621-4696-4e48-be14-6bf79e3f1e6d")
 	)
 	(wire
 		(pts
@@ -2436,16 +2629,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 72.39) (xy 185.42 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8717417e-a3ee-4b3b-be8b-41f05c456eff")
-	)
-	(wire
-		(pts
 			(xy 68.58 68.58) (xy 68.58 52.07)
 		)
 		(stroke
@@ -2493,6 +2676,16 @@
 			(type default)
 		)
 		(uuid "d34aa5d6-2614-486e-b43c-9e50651523c3")
+	)
+	(wire
+		(pts
+			(xy 177.8 74.93) (xy 177.8 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d52777a1-5a6b-4c3f-995d-59303025a194")
 	)
 	(wire
 		(pts
@@ -2581,102 +2774,35 @@
 		(uuid "cbe8992a-1a00-4fb1-9bec-f4cb4be182c8")
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:C")
-		(at 177.8 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "243131fb-1340-49b0-b63b-fbe40b930196")
-		(property "Reference" "C10"
-			(at 180.34 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 180.34 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 178.7652 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 177.8 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0baa4101-e8ec-47ab-ab88-06669e740135")
-		)
-		(pin "1"
-			(uuid "4a1d8122-acb7-47cf-b836-d04f34adf899")
-		)
-		(instances
-			(project "PULSE_ENG"
-				(path "/2de881bb-2e2a-47f9-96ed-b3393fa36b98/32fac869-3c72-4ec8-a514-1800b5db5371"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PULSE_Library:C3216X8L1E106K160AE")
-		(at 40.64 58.42 0)
+		(at 177.8 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4de76eea-aeee-4903-bab3-92d619c65599")
-		(property "Reference" "C11"
-			(at 46.99 50.8 0)
+		(uuid "3de902e7-a87e-43e1-a117-e4690a336d8b")
+		(property "Reference" "C12"
+			(at 181.61 80.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "C3216X8L1E106K160AE"
-			(at 46.99 53.34 0)
+			(at 181.61 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "CAPC3216X180N"
-			(at 49.53 154.61 0)
+			(at 273.99 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2686,7 +2812,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf"
-			(at 49.53 254.61 0)
+			(at 373.99 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2696,7 +2822,7 @@
 			)
 		)
 		(property "Description" "MULTILAYER CERAMIC CHIP CAPACITORS, 3216, Commercial grade, general (Up to 75V)"
-			(at 40.64 58.42 0)
+			(at 177.8 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2705,7 +2831,7 @@
 			)
 		)
 		(property "Height" "1.8"
-			(at 49.53 454.61 0)
+			(at 573.99 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2715,7 +2841,7 @@
 			)
 		)
 		(property "Mouser Part Number" "810-C3216X8L106K160E"
-			(at 49.53 554.61 0)
+			(at 673.99 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2725,7 +2851,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/C3216X8L1E106K160AE?qs=P1JMDcb91o4c0as04x%252BvyQ%3D%3D"
-			(at 49.53 654.61 0)
+			(at 773.99 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2735,7 +2861,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "TDK"
-			(at 49.53 754.61 0)
+			(at 873.99 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2745,7 +2871,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C3216X8L1E106K160AE"
-			(at 49.53 854.61 0)
+			(at 973.99 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2755,15 +2881,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "1d9d9ec0-4731-4d5f-9020-55e501c16980")
+			(uuid "8bbc512e-e3e4-406d-be77-06670ac7f223")
 		)
 		(pin "1"
-			(uuid "b6445c9e-0c8d-4521-904d-855eda37f3f0")
+			(uuid "7e711419-3a83-495c-88da-fb6701d0fa5b")
 		)
 		(instances
-			(project ""
+			(project "PULSE_ENG"
 				(path "/2de881bb-2e2a-47f9-96ed-b3393fa36b98/32fac869-3c72-4ec8-a514-1800b5db5371"
-					(reference "C11")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -2972,6 +3098,126 @@
 			(project "PULSE_ENG"
 				(path "/2de881bb-2e2a-47f9-96ed-b3393fa36b98/32fac869-3c72-4ec8-a514-1800b5db5371"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PULSE_Library:AMDLA4020S-220MT")
+		(at 31.75 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7eb2524c-634f-44d3-906f-43759c356cd3")
+		(property "Reference" "Y1"
+			(at 36.83 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMDLA4020S-220MT"
+			(at 36.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PULSE_Library:INDPM4440X200N"
+			(at 40.64 133.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://abracon.com/datasheets/AMDLA4020S.pdf"
+			(at 40.64 233.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "FIXED IND 22UH 1.2A 320MOHM SMD"
+			(at 31.75 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2"
+			(at 40.64 433.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "815-AMDLA4020S-220MT"
+			(at 40.64 533.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ABRACON/AMDLA4020S-220MT?qs=DPoM0jnrROWKifSgrOC28g%3D%3D"
+			(at 40.64 633.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ABRACON"
+			(at 40.64 733.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AMDLA4020S-220MT"
+			(at 40.64 833.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf9605aa-7809-4ef8-bec1-08f38471aa14")
+		)
+		(pin "2"
+			(uuid "3b50f6ea-fe16-41fe-be22-d03f9e7034bd")
+		)
+		(instances
+			(project ""
+				(path "/2de881bb-2e2a-47f9-96ed-b3393fa36b98/32fac869-3c72-4ec8-a514-1800b5db5371"
+					(reference "Y1")
 					(unit 1)
 				)
 			)
