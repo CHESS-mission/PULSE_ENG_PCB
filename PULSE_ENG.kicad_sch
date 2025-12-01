@@ -4528,6 +4528,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 224.79) (xy 242.57 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68d0000c-b1ac-4d16-8a88-d847f4824bb4")
+	)
+	(wire
+		(pts
 			(xy 353.06 92.71) (xy 353.06 93.98)
 		)
 		(stroke
@@ -5647,6 +5657,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 241.3 224.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9f4165e-7f78-4bbf-b4c8-4d9a68df49c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.4443 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8132,7 +8164,7 @@
 		)
 	)
 	(sheet
-		(at 246.38 184.15)
+		(at 242.57 176.53)
 		(size 57.15 63.5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8148,7 +8180,7 @@
 		)
 		(uuid "8bf4b950-7d1e-4a2d-ad03-078c0e232a33")
 		(property "Sheetname" "EPS_Power_Supply"
-			(at 246.38 183.4384 0)
+			(at 242.57 175.8184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8157,12 +8189,122 @@
 			)
 		)
 		(property "Sheetfile" "EPS_power_supply.kicad_sch"
-			(at 246.38 248.2346 0)
+			(at 242.57 240.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "3V3" output
+			(at 299.72 191.77 0)
+			(uuid "5bf6362c-ea14-4016-ad44-f784f13da786")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V" output
+			(at 299.72 184.15 0)
+			(uuid "12ac7ce3-eb21-4f76-8eed-58d1ab31b450")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 242.57 224.79 180)
+			(uuid "11e47765-1999-4ead-807b-b8a200d41354")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PV_in" input
+			(at 242.57 184.15 180)
+			(uuid "3a3d4ce9-1fed-4c57-bbc4-3b3505f937b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDDCORE" output
+			(at 299.72 199.39 0)
+			(uuid "a62d98ce-31e1-4fbb-9424-7a807678491b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDDIO" output
+			(at 299.72 201.93 0)
+			(uuid "8f5d1ac5-8446-4c59-9b49-01ced23c9c98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDDIN" output
+			(at 299.72 204.47 0)
+			(uuid "5083498a-6d52-40fe-be34-01bca17da0a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VDDANA" output
+			(at 299.72 207.01 0)
+			(uuid "3654e103-c713-41ff-87c6-6e6c17c6f503")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GNDANA" output
+			(at 299.72 212.09 0)
+			(uuid "80de5c28-0a58-4b13-9e27-fbf63c8b4276")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V_PDU" input
+			(at 242.57 191.77 180)
+			(uuid "c045c2db-4da7-49fc-a207-9122c672d835")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3_PDU" input
+			(at 242.57 196.85 180)
+			(uuid "1f9da681-0f1e-4bce-b37c-976efbb57443")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
