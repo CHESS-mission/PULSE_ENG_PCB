@@ -1,19 +1,24 @@
 .DS_Store
 
+fp-info-cache
+
 # Ignore list for KiCAD Projects
 # Temporary files
 *.000
 *.bak
 *.bck
+*.backup
 *.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
 *.sch-bak
 *~
 _autosave-*
 *.tmp
 *-save.pro
+*.autosave
 *-save.kicad_pcb
 *.lck
-fp-info-cache
 #auto_saved_files#
 
 # Netlist files (exported from Eeschema)
