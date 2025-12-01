@@ -265,7 +265,7 @@
 		(uuid "580bed15-fc72-4d3a-9879-0cfd79fe94c1")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/PULSE_3D_Models/INA226AIDGSR.stp"
+	(model "C:/Users/AlexR/OneDrive/Desktop/EPFL/EST/KiCad/LIB_INA226AIDGSR/INA226AIDGSR/3D/INA226AIDGSR.stp"
 		(offset
 			(xyz 0 0 0.7)
 		)

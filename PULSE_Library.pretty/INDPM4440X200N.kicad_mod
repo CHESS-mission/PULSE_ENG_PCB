@@ -177,7 +177,7 @@
 		(uuid "74e6c4fb-3bb0-4da9-88a7-bee53b320859")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/PULSE_3D_Models/AMDLA4020S-220MT.stp"
+	(model "${KIPRJMOD}/PDU_3D_Models/AMDLA4020S-220MT.stp"
 		(offset
 			(xyz 0 0 0)
 		)

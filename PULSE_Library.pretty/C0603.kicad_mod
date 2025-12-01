@@ -179,7 +179,7 @@
 		(uuid "fa38360a-54f0-4f7a-949a-8fc84cde2495")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/PULSE_3D_Models/C0603C104K4NACAUTO.stp"
+	(model "${KIPRJMOD}/PDU_3D_Models/C0603C104K4NACAUTO.stp"
 		(offset
 			(xyz -0.87 -0.475 0)
 		)
