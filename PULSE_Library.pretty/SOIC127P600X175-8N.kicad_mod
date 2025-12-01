@@ -253,7 +253,7 @@
 		(uuid "5785c0b6-e936-45e9-b00c-158233767402")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/AlexR/OneDrive/Desktop/EPFL/EST/KiCad/LIB_L6982C50DR/L6982C50DR/3D/L6982C50DR.stp"
+	(model "${KIPRJMOD}/PULSE_3D_Models/L6982C50DR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

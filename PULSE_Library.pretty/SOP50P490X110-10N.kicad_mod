@@ -266,8 +266,20 @@
 	)
 	(embedded_fonts no)
 	(model "C:/Users/AlexR/OneDrive/Desktop/EPFL/EST/KiCad/LIB_INA226AIDGSR/INA226AIDGSR/3D/INA226AIDGSR.stp"
+		(hide yes)
 		(offset
 			(xyz 0 0 0.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+	(model "${KIPRJMOD}/PULSE_3D_Models/INA226AIDGSR.stp"
+		(offset
+			(xyz 0 0 0.68)
 		)
 		(scale
 			(xyz 1 1 1)
