@@ -170,13 +170,13 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/PULSE_3D_Models/C1812C106K3RACTM.stp"
 		(offset
-			(xyz -98.09 -42.53 -10.65)
+			(xyz 98.1 42.52 -10.65)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 -180 -0)
+			(xyz 90 -180 180)
 		)
 	)
 )

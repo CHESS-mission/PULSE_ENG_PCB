@@ -181,7 +181,7 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/PULSE_3D_Models/C0603C104K4NACAUTO.stp"
 		(offset
-			(xyz -0.87 -0.475 0)
+			(xyz -0.875 -0.475 0)
 		)
 		(scale
 			(xyz 1 1 1)

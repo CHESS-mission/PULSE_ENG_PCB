@@ -167,15 +167,15 @@
 		(uuid "31408ad1-cc63-4524-9f4f-d2d0b26829b2")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/PULSE_3D_Models/RT0603BRB0710KL.stp"
+	(model "${KIPRJMOD}/PULSE_3D_Models/TNPW0603100KBEEA.stp"
 		(offset
-			(xyz 0 0 0.5)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 -0 -180)
+			(xyz 0 0 0)
 		)
 	)
 )

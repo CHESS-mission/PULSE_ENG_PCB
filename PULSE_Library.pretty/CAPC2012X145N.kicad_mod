@@ -159,13 +159,13 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/PULSE_3D_Models/AS0805KKX7R8BB105.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0.73 0.59)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )
