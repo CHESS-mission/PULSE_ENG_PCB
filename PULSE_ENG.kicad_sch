@@ -8122,7 +8122,7 @@
 		)
 	)
 	(sheet
-		(at 95.25 33.02)
+		(at 96.52 33.02)
 		(size 41.91 105.41)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8138,7 +8138,7 @@
 		)
 		(uuid "32fac869-3c72-4ec8-a514-1800b5db5371")
 		(property "Sheetname" "PCU_Converter"
-			(at 95.25 32.3084 0)
+			(at 96.52 32.3084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8147,12 +8147,72 @@
 			)
 		)
 		(property "Sheetfile" "PCU.kicad_sch"
-			(at 95.25 139.0146 0)
+			(at 96.52 139.0146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "V_out" output
+			(at 138.43 44.45 0)
+			(uuid "b246f5a3-4030-469f-beed-95bc9fd70cbf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "gnd" input
+			(at 138.43 72.39 0)
+			(uuid "f4fe23d7-f640-49f3-a229-887f54d1d824")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "pwm_H" input
+			(at 96.52 60.96 180)
+			(uuid "a1f94b25-44f8-4e65-94d6-89b11efc32e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "pwm_L" input
+			(at 96.52 68.58 180)
+			(uuid "205da9d1-170c-469d-9b8c-1a71f7c9cbb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_in" input
+			(at 96.52 74.93 180)
+			(uuid "8780e802-4a2a-418f-99c6-cc328fa11515")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_in_12V" input
+			(at 96.52 38.1 180)
+			(uuid "b99c7313-4a21-45c0-9671-a1ab42a45027")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
