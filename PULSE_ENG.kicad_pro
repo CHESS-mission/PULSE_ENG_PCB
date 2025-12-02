@@ -483,7 +483,95 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "Net-(D10-A1)": [
+        "Vin"
+      ],
+      "Net-(D8-A1)": [
+        "Vin"
+      ],
+      "Net-(D9-A1)": [
+        "Vin"
+      ],
+      "Net-(IC10-CATHODE)": [
+        "SP BackUP Deploymnet Bus"
+      ],
+      "Net-(IC11-CATHODE)": [
+        "SP Deploymnet Bus"
+      ],
+      "Net-(IC12-IN_1)": [
+        "Vin"
+      ],
+      "Net-(IC13-IN_1)": [
+        "Vin"
+      ],
+      "Net-(IC14-IN_1)": [
+        "Vin"
+      ],
+      "Net-(IC15-IN_1)": [
+        "Vin"
+      ],
+      "Net-(IC16-IN_1)": [
+        "Vin"
+      ],
+      "Net-(IC22-EN{slash}CLKIN)": [
+        "5V_2"
+      ],
+      "Net-(IC23-EN{slash}CLKIN)": [
+        "5V_1+"
+      ],
+      "Net-(IC24-VOUT{slash}FB)": [
+        "3.3V_3"
+      ],
+      "Net-(IC25-VOUT{slash}FB)": [
+        "3.3V_2"
+      ],
+      "Net-(IC26-VOUT{slash}FB)": [
+        "3.3V_1+"
+      ],
+      "Net-(IC3-IN_1)": [
+        "Vin"
+      ],
+      "Net-(IC4-IN_1)": [
+        "Vin"
+      ],
+      "Net-(IC5-CATHODE)": [
+        "Vout"
+      ],
+      "Net-(IC6-CATHODE)": [
+        "Vout"
+      ],
+      "Net-(IC7-CATHODE)": [
+        "Vout"
+      ],
+      "Net-(IC8-IN-)": [
+        "3.3V_1-"
+      ],
+      "Net-(IC8-VS)": [
+        "+3.3V"
+      ],
+      "Net-(IC9-A0)": [
+        "+3.3V"
+      ],
+      "Net-(IC9-IN-)": [
+        "5V_1-"
+      ],
+      "Vcc_3V3": [
+        "Vcc_3V3"
+      ],
+      "unconnected-(IC8-IN+-Pad10)": [
+        "3.3V_1+"
+      ],
+      "unconnected-(IC9-IN+-Pad10)": [
+        "5V_1+"
+      ],
+      "unconnected-(R34-Pad1)": [
+        "5V_1-"
+      ],
+      "unconnected-(R35-Pad1)": [
+        "3.3V_1-"
+      ]
+    },
     "netclass_patterns": [
       {
         "netclass": "Default",
@@ -606,6 +694,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
