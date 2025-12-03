@@ -6596,6 +6596,28 @@
 			)
 		)
 	)
+	(global_label "BUCK_OUT"
+		(shape input)
+		(at 138.43 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bad60ca8-e43b-4380-b7e1-8bd27cf261bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.1519 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BU_Vbat_ON"
 		(shape output)
 		(at 328.93 115.57 0)
@@ -6658,6 +6680,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PVIN"
+		(shape input)
+		(at 242.57 184.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf0641e7-ce9e-480f-9722-426c77fce5e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 235.2909 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9927,6 +9971,48 @@
 			(project "PULSE_ENG"
 				(path "/2de881bb-2e2a-47f9-96ed-b3393fa36b98"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 243.84)
+		(size 36.83 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "849a30d7-322f-4590-a198-8c58a018e511")
+		(property "Sheetname" "Battery_protection_and_sensing"
+			(at 40.64 243.1284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 40.64 264.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PULSE_ENG"
+				(path "/2de881bb-2e2a-47f9-96ed-b3393fa36b98"
+					(page "6")
 				)
 			)
 		)
