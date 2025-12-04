@@ -9976,8 +9976,8 @@
 		)
 	)
 	(sheet
-		(at 40.64 243.84)
-		(size 36.83 20.32)
+		(at 26.67 202.565)
+		(size 60.96 33.655)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9992,7 +9992,7 @@
 		)
 		(uuid "849a30d7-322f-4590-a198-8c58a018e511")
 		(property "Sheetname" "Battery_protection_and_sensing"
-			(at 40.64 243.1284 0)
+			(at 26.67 201.8534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10001,12 +10001,172 @@
 			)
 		)
 		(property "Sheetfile" "untitled.kicad_sch"
-			(at 40.64 264.7446 0)
+			(at 26.67 236.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "3.3V" input
+			(at 26.67 207.01 180)
+			(uuid "3a425fcd-722b-4ae9-b13a-b6cc305bef40")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V" input
+			(at 26.67 209.55 180)
+			(uuid "2f4eaf75-a506-45e4-9acc-fa3f00608d08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BAT_EFUSE_EN" input
+			(at 59.69 202.565 90)
+			(uuid "d7ee0ff1-2cd8-4c9a-be64-3aea5377027f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAT_EFUSE_FLT" input
+			(at 87.63 214.63 0)
+			(uuid "f9a407ec-79ac-4f2a-992f-e1137408bf32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAT_EFUSE_IMON" input
+			(at 87.63 217.17 0)
+			(uuid "e94b32c3-e7e8-4784-b407-c7677ce2265d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAT_EFUSE_PGOOD" input
+			(at 87.63 219.71 0)
+			(uuid "3ff5a321-0f12-4bae-9824-75a22bbffa00")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAT_HS" input
+			(at 62.23 202.565 90)
+			(uuid "147291f5-bf8d-4a51-ac04-2be1b27c09be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAT_NEG" input
+			(at 26.67 220.98 180)
+			(uuid "8c8a5cbf-4287-4805-b110-64e408eb2368")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BAT_POS" input
+			(at 26.67 217.17 180)
+			(uuid "6ee2d282-30df-43e5-8689-05c5e636ffd1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BAT_PS" input
+			(at 64.77 202.565 90)
+			(uuid "f73fc393-1616-449e-a543-7fde18fb6eff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAT_SHUNT_IN" input
+			(at 87.63 223.52 0)
+			(uuid "1d5b9597-f35a-4660-b2e6-5fe4a8621ab7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAT_SHUNT_OUT" input
+			(at 87.63 226.06 0)
+			(uuid "b1870d4d-af1a-49b6-8295-63ffc9a06927")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAT_VCC" input
+			(at 67.31 202.565 90)
+			(uuid "0c1b6b89-b7c5-459c-8baa-dc638939894e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BUCK_OUT" input
+			(at 26.67 212.09 180)
+			(uuid "b72e44ec-fe82-485a-9b2a-9b53c0d2edd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 26.67 224.79 180)
+			(uuid "bffbe9f8-a0fd-4f5e-be5e-8a831414494a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_SYS_Protected" input
+			(at 87.63 208.28 0)
+			(uuid "813facf8-9b33-47a4-80bc-1dca3e471f73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -10170,7 +10330,7 @@
 		)
 	)
 	(sheet
-		(at 105.41 148.59)
+		(at 102.235 156.845)
 		(size 49.53 46.99)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10186,7 +10346,7 @@
 		)
 		(uuid "a5146b04-836d-4686-bab4-a3d53d2a41a7")
 		(property "Sheetname" "PCU_Control"
-			(at 105.41 147.8784 0)
+			(at 102.235 156.1334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10195,12 +10355,212 @@
 			)
 		)
 		(property "Sheetfile" "Control.kicad_sch"
-			(at 105.41 196.1646 0)
+			(at 102.235 204.4196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "3.3V" input
+			(at 102.235 168.91 180)
+			(uuid "cbd610d4-0861-4879-82e4-06ded69a6bae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V" input
+			(at 102.235 171.45 180)
+			(uuid "30ce6266-de84-4c3b-964d-7f50983ebebe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BAT_EFUSE_EN" input
+			(at 115.57 156.845 90)
+			(uuid "b243835e-cc62-4c54-9c55-da412adcec1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAT_OVP_FLAG" input
+			(at 151.765 175.26 0)
+			(uuid "9f2fd45f-2cee-49cc-9695-aec86814059d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAT_SHUNT_IN" input
+			(at 102.235 187.96 180)
+			(uuid "8b855898-b5a2-412d-b23b-dd78bd84b11d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BAT_SHUNT_OUT" input
+			(at 102.235 190.5 180)
+			(uuid "f10e5b51-8850-4316-a683-c05e8e7add8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BAT_UVP_FLAG" input
+			(at 151.765 177.8 0)
+			(uuid "afae7e6d-fe54-4818-b455-52e8ec92646c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BUCK_IN" input
+			(at 102.235 161.29 180)
+			(uuid "7301ffd5-b8ff-43e4-bc2c-69925cb1fbe9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BUCK_OUT" input
+			(at 102.235 163.83 180)
+			(uuid "57009602-5661-47a7-a044-f71a5f2669e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I_BAT_ANA" input
+			(at 151.765 187.96 0)
+			(uuid "1b13ff31-5392-4eb6-9e43-546bc88c0d77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I_PANNEL_ANA" input
+			(at 151.765 190.5 0)
+			(uuid "c084312f-4498-426b-8767-251a10aeb7d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_BAT_EFUSE_EN" input
+			(at 118.11 156.845 90)
+			(uuid "24d29855-c0d9-49aa-9830-5de899bcc451")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_PANNEL_EFUSE_EN" input
+			(at 123.19 156.845 90)
+			(uuid "270e226b-7ad2-447f-a544-444a3513b301")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PANNEL_EFUSE_EN" input
+			(at 125.73 156.845 90)
+			(uuid "ec752c4a-3be5-4fe4-8050-2a294cd5abfe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PANNEL_OVP_FLAG" input
+			(at 151.765 172.72 0)
+			(uuid "6f64b407-7db2-45a7-94ab-dfee58c0d4bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PANNEL_SHUNT_IN" input
+			(at 102.235 194.31 180)
+			(uuid "dad56459-34e9-4cf5-a68c-86f3ebb79a45")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PANNEL_SHUNT_OUT" input
+			(at 102.235 196.85 180)
+			(uuid "4fa50a7b-a1d4-4c05-af98-ff0cfcbea26c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "P_SYS_Protected" input
+			(at 151.765 162.56 0)
+			(uuid "4a362bdb-a576-4aef-885a-b047154f7580")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBAT_SENSE" input
+			(at 102.235 180.34 180)
+			(uuid "2f89bb73-591d-4a01-b809-a4bf900cede0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VPANNEL_SENSE" input
+			(at 102.235 182.88 180)
+			(uuid "ab496735-3b9b-4746-9eb2-d796e2d9a60d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -10212,8 +10572,8 @@
 		)
 	)
 	(sheet
-		(at 40.005 213.995)
-		(size 38.1 14.605)
+		(at 22.86 240.665)
+		(size 57.785 40.005)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10228,7 +10588,7 @@
 		)
 		(uuid "c72bc6ca-9cdc-4e58-ad5e-fa33c03e7ecd")
 		(property "Sheetname" "Pannel_protection_and_sensing"
-			(at 40.005 213.2834 0)
+			(at 22.86 239.9534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10237,12 +10597,112 @@
 			)
 		)
 		(property "Sheetfile" "PANNEL_PS.kicad_sch"
-			(at 40.005 229.1846 0)
+			(at 22.86 281.2546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "3.3V" input
+			(at 22.86 248.92 180)
+			(uuid "f21969c8-d5b5-4c84-85e8-8d8b3838c0b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V" input
+			(at 22.86 251.46 180)
+			(uuid "6d8aa465-0c28-46f2-93d7-164f26eafdf3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PANNEL_EFUSE_EN" input
+			(at 55.88 240.665 90)
+			(uuid "3251ae0e-2a8d-4e73-a3ef-33af1966727f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PANNEL_SHUNT_IN" input
+			(at 80.645 252.73 0)
+			(uuid "910a4a70-cfa4-49a5-bec9-f6954343cc17")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PANNEL_SHUNT_OUT" input
+			(at 80.645 255.27 0)
+			(uuid "cdab1b4d-08ca-4e3a-ba7b-74b6ad743142")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PAN_EFUSE_FLT" input
+			(at 80.645 264.16 0)
+			(uuid "bb3dc8de-5ee4-4440-8986-30d5f5bddb26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PAN_EFUSE_IMON" input
+			(at 80.645 266.7 0)
+			(uuid "82680128-d1c8-4dc3-8c2f-4e52e2c47cd1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PAN_EFUSE_PGOOD" input
+			(at 80.645 269.24 0)
+			(uuid "4cdbdf99-4824-4d95-af33-5855c53b7b4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "P_Vout_PROTECTED" input
+			(at 80.645 245.11 0)
+			(uuid "a3d7706e-569c-4699-a9dd-04f38f483c82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vin_PANNEL" input
+			(at 22.86 257.81 180)
+			(uuid "0d80eb5a-8ac4-4982-8ffc-d7ae3560cfa5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
