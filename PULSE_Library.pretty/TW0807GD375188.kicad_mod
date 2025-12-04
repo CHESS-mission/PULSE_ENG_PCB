@@ -355,7 +355,7 @@
 		(uuid "9d85354f-d496-410f-b339-0ce7d9def23e")
 	)
 	(embedded_fonts no)
-	(model "C:\\Users\\sdnab\\Documents\\KiCad\\SamacSys_Parts.3dshapes\\TW-08-07-G-D-375-188.stp"
+	(model "${KIPRJMOD}/PULSE_3D_Models/TW-08-07-G-D-375-188.stp"
 		(offset
 			(xyz 0 0 0)
 		)
