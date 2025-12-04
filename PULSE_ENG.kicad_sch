@@ -8363,4 +8363,40 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "RT0603BRB0710KL.kicad_sym")
+			(type other)
+			(data |KLUv/WCIB8UUAFZoeybwsOgBY8fCkisF3OvmK5k+XP2Nc3mmutckaqK7hf/dcpBNxF6khHAAbwBy
+				AA8H6cjEPWB/fLpdWjeX1bFbfmndeezX4vZqXp0di5Wq81Y42qeh7J3GbIaq8+nWwPBg5FEulMeD
+				PIlL66cbIACiXlkHynJQQaByByMjFjGN7Ufs1TVPQwPwQSg9qaudGbvG05lJKWozWCdTVZRz8wQO
+				+w5IPXZknRvdeUkcVdG9MXqZVRbfKM7KsaiKlt4swqx01jWx4zgcThQR5Pt/uV85frRMoINMHA/T
+				ZCF5EFjBIHyd+L61CVDiHs0zGimga7/fctoda37OMJ6GoIjkYPvGzE9/tdbT+aVblj/dr6cXsmJB
+				KcgZBhEEgsLBRURnfLdERJd02Ebax0QuJx5wOB4P0rphz2DZQz+OEY09Z9bhMU3utW5/aaYvSNi9
+				D7YAdI1dthke7IoHI9gWB0w7OmP7eWa/NEZnQtd5SbRu1c6/E8vsFTU30Kquo1S+LKbgcy8AAZAk
+				SWC/lkRcBNYGW1+vqU6f10nbNWbO8XadVc0s1mxkzFA6LehpFi2v2m/nJ8m9vr6anKd9Y/FnJ8Gu
+				quS5qR/Hz041Nb50HKEgrZtj8YHCjrOX0cpqnCwPgYMLhk3DBATCkjEqkkeRJkkATwJBIGACkanK
+				dZAAYp4+maqmSR1DJoC92zk8Dho/9K4WaEBAilAcBGjiYvir5qbZAR0BCT5vhY1FthCBomOgyUVb
+				iiNPV2AsXJdgQSzTW3Dhj1d4JiGPA8SBBxj9Y+Io8cVK1XWjYYrTuHC4J+Hf8c7EBNpHOPaJ6bpD
+				wEubIBLuLd2cHUGpCGRfsHXISQEM0KRX9zz4X7KhNkDf1RkQGrlKIocg9pNiEGY=|
+			)
+			(checksum "F263A822B38F39E2468B0D4216E9960D")
+		)
+		(file
+			(name "RT0603BRB0710KL.lib")
+			(type other)
+			(data |KLUv/WDtAvUQADafYyHw1DwUdiR+lc/4jiB/ZYNwKk04wto6fuGf03ZENkeIp15bAFgAWADeMy43
+				UXx3U5vZoxnFaNUujBbsIMMIltptI2B1YClgoiKQageV8xRZ3arFe1AOt+S5xOK+SfpAPOKPYHX6
+				+R5ShxskM2Cisgt7cmuT58trvISneEQsPGYR/O4N3bKbzq2TVNJSiyCnPWfRxB2HtCwx7eAZbl5S
+				rMM80hBvUHnScYPXzh5MukQiEaUGs+xdrD57dJqWIdTNLr6LWdstPvKXd2BfNe0rr/rKmKjuGW81
+				X7OvHxr3zFHo57zGAc+c8ey+c0x5ns1zSzLLyupW/dZFj84OTNOuWr1WkVv3UnPQzFz1FlMttR+w
+				V/1R3A+p9jnJ99abP4I040ktWqoXWJ2wvEAbU9x8Y+tVrR0TReKYc3TkQ/IyLtddbHv79bWnROrg
+				Mcp7XytW337pMxOFSXjcZrMKecTdhmd+dhB3ThJXT/iAu380g5oLuCyQaIQWlyS5ozPzjbz7eFRq
+				gSsOZghBJ7eR0FBQPChgxozgqQMxqaFKTSARjcZSGDYDBqA4ixRBDwaJBPPCHkckN2QK3gJml10x
+				CeAXQhEWAbzLDnF20AqreCYngtYYHi+oychArhf5Q8I6Mf5rugJVAjHvx2aQueVHGxTcbafAK9/Q
+				YpX5rgtnNIl8rrEOxwooLu3CXjFGnAAMBnjBydXwEOqVjj/GktDL|
+			)
+			(checksum "53875E1682CDD4785FB3495229049972")
+		)
+	)
 )
