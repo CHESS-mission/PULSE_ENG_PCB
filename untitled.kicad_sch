@@ -3528,7 +3528,7 @@
 		(uuid "0f60ff43-3e4b-4d98-ac26-0c6f2237dc36")
 	)
 	(hierarchical_label "BAT_SHUNT_IN"
-		(shape input)
+		(shape output)
 		(at 72.39 54.61 0)
 		(effects
 			(font
@@ -3539,7 +3539,7 @@
 		(uuid "22391eff-1350-41c6-91c5-fe86ca7ce347")
 	)
 	(hierarchical_label "BAT_EFUSE_IMON"
-		(shape input)
+		(shape output)
 		(at 71.12 38.1 0)
 		(effects
 			(font
@@ -3572,7 +3572,7 @@
 		(uuid "32d65efa-30dc-4caa-b9cb-603f7d577992")
 	)
 	(hierarchical_label "BAT_EFUSE_EN"
-		(shape input)
+		(shape output)
 		(at 71.12 26.67 0)
 		(effects
 			(font
@@ -3605,7 +3605,7 @@
 		(uuid "9225dcb6-3179-4aae-b9d4-a75c0b223f42")
 	)
 	(hierarchical_label "BAT_SHUNT_OUT"
-		(shape input)
+		(shape output)
 		(at 72.39 58.42 0)
 		(effects
 			(font
@@ -3616,7 +3616,7 @@
 		(uuid "9f55431e-02fc-41b5-9f28-1f36c6f9893a")
 	)
 	(hierarchical_label "BAT_EFUSE_FLT"
-		(shape input)
+		(shape output)
 		(at 71.12 41.91 0)
 		(effects
 			(font
@@ -3649,7 +3649,7 @@
 		(uuid "c11ce93a-87d9-48eb-bfc1-fe9f7ee6a522")
 	)
 	(hierarchical_label "P_SYS_Protected"
-		(shape input)
+		(shape output)
 		(at 71.12 21.59 0)
 		(effects
 			(font
@@ -3660,7 +3660,7 @@
 		(uuid "c1ce81cb-4be8-44d1-b614-59cbd385b4a3")
 	)
 	(hierarchical_label "BAT_EFUSE_PGOOD"
-		(shape input)
+		(shape output)
 		(at 71.12 45.72 0)
 		(effects
 			(font

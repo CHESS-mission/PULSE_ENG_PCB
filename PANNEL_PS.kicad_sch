@@ -3294,7 +3294,7 @@
 		(uuid "0ea7efde-26ea-42bd-9d36-adbbf14f9e0a")
 	)
 	(hierarchical_label "PAN_EFUSE_FLT"
-		(shape input)
+		(shape output)
 		(at 76.2 53.34 0)
 		(effects
 			(font
@@ -3305,7 +3305,7 @@
 		(uuid "123c8d51-e9e4-43c6-b71f-492a863eb878")
 	)
 	(hierarchical_label "P_Vout_PROTECTED"
-		(shape input)
+		(shape output)
 		(at 74.93 22.86 0)
 		(effects
 			(font
@@ -3316,7 +3316,7 @@
 		(uuid "3e17ac70-2880-4153-bcc2-82468ddb36b9")
 	)
 	(hierarchical_label "PAN_EFUSE_IMON"
-		(shape input)
+		(shape output)
 		(at 76.2 46.99 0)
 		(effects
 			(font
@@ -3327,7 +3327,7 @@
 		(uuid "40724751-d68e-4b8f-8ea4-c45c90645e3e")
 	)
 	(hierarchical_label "PAN_EFUSE_PGOOD"
-		(shape input)
+		(shape output)
 		(at 76.2 40.64 0)
 		(effects
 			(font
@@ -3349,7 +3349,7 @@
 		(uuid "609510b1-9754-4807-b337-95d45f2a3f14")
 	)
 	(hierarchical_label "PANNEL_SHUNT_IN"
-		(shape input)
+		(shape output)
 		(at 76.2 29.21 0)
 		(effects
 			(font
@@ -3360,7 +3360,7 @@
 		(uuid "89fd9cbf-eda7-43e1-b202-1388e9a0b42a")
 	)
 	(hierarchical_label "PANNEL_SHUNT_OUT"
-		(shape input)
+		(shape output)
 		(at 76.2 35.56 0)
 		(effects
 			(font

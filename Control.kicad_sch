@@ -3949,7 +3949,7 @@
 		(uuid "fd94e4e4-3d2a-4d4c-9f8a-da3a3b3d6883")
 	)
 	(hierarchical_label "BAT_UVP_FLAG"
-		(shape input)
+		(shape output)
 		(at 110.49 45.72 0)
 		(effects
 			(font
@@ -3960,7 +3960,7 @@
 		(uuid "03d5727f-df2e-4699-9d3e-7a0cb8d21d06")
 	)
 	(hierarchical_label "VBAT_SENSE"
-		(shape input)
+		(shape output)
 		(at 110.49 55.88 0)
 		(effects
 			(font
@@ -4015,7 +4015,7 @@
 		(uuid "4848ff9e-b50d-41ee-b825-ae34564462d2")
 	)
 	(hierarchical_label "BAT_EFUSE_EN"
-		(shape input)
+		(shape output)
 		(at 110.49 30.48 0)
 		(effects
 			(font
@@ -4026,7 +4026,7 @@
 		(uuid "687dcb1b-5e84-4bd6-a971-f602641991b8")
 	)
 	(hierarchical_label "P_SYS_Protected"
-		(shape input)
+		(shape output)
 		(at 110.49 22.86 0)
 		(effects
 			(font
@@ -4048,7 +4048,7 @@
 		(uuid "77ccdbae-fd5d-4cf6-9036-d38867a9903f")
 	)
 	(hierarchical_label "PANNEL_OVP_FLAG"
-		(shape input)
+		(shape output)
 		(at 110.49 49.53 0)
 		(effects
 			(font
@@ -4059,7 +4059,7 @@
 		(uuid "7f440027-2cb2-4a4a-88f9-292b8a43e7dd")
 	)
 	(hierarchical_label "BAT_OVP_FLAG"
-		(shape input)
+		(shape output)
 		(at 110.49 41.91 0)
 		(effects
 			(font
@@ -4092,7 +4092,7 @@
 		(uuid "b1b947f2-750a-4ba3-8939-127ac0b9e1d2")
 	)
 	(hierarchical_label "PANNEL_EFUSE_EN"
-		(shape input)
+		(shape output)
 		(at 110.49 34.29 0)
 		(effects
 			(font
@@ -4114,7 +4114,7 @@
 		(uuid "c21a8c41-5aef-4468-8368-ad49ef37b38a")
 	)
 	(hierarchical_label "I_BAT_ANA"
-		(shape input)
+		(shape output)
 		(at 110.49 63.5 0)
 		(effects
 			(font
@@ -4125,7 +4125,7 @@
 		(uuid "ccb1dd31-19a9-49f8-aab3-85bc21359dbe")
 	)
 	(hierarchical_label "I_PANNEL_ANA"
-		(shape input)
+		(shape output)
 		(at 110.49 67.31 0)
 		(effects
 			(font
@@ -4158,7 +4158,7 @@
 		(uuid "ec2c45e1-10a3-41b5-9a2b-2670e4d6cfb6")
 	)
 	(hierarchical_label "VPANNEL_SENSE"
-		(shape input)
+		(shape output)
 		(at 110.49 59.69 0)
 		(effects
 			(font
