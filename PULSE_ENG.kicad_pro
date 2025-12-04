@@ -529,8 +529,17 @@
       "Net-(IC26-VOUT{slash}FB)": [
         "3.3V_1+"
       ],
+      "Net-(IC28-IN+)": [
+        "3.3V_1+"
+      ],
+      "Net-(IC28-VS)": [
+        "+3.3V"
+      ],
       "Net-(IC3-IN_1)": [
         "Vin"
+      ],
+      "Net-(IC31-IN+)": [
+        "3.3V_1+"
       ],
       "Net-(IC4-IN_1)": [
         "Vin"
@@ -734,6 +743,14 @@
     [
       "a5146b04-836d-4686-bab4-a3d53d2a41a7",
       "PCU_Control"
+    ],
+    [
+      "849a30d7-322f-4590-a198-8c58a018e511",
+      "Battery_protection_and_sensing"
+    ],
+    [
+      "c72bc6ca-9cdc-4e58-ad5e-fa33c03e7ecd",
+      "Pannel_protection_and_sensing"
     ]
   ],
   "text_variables": {}
