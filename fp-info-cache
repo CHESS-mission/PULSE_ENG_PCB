@@ -1,4 +1,4 @@
-26661079152309873
+26664612956267747
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -74697,6 +74697,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 4
 4
 PULSE_Library
+78404084470
+78404084470-2
+Inductor
+0
+2
+2
+PULSE_Library
 C0603
 C0603
 Capacitor
@@ -74706,6 +74713,13 @@ Capacitor
 PULSE_Library
 C1812
 C1812
+Capacitor
+0
+2
+2
+PULSE_Library
+CAPC1005X55N
+0402
 Capacitor
 0
 2
