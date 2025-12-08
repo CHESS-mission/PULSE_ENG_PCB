@@ -10,145 +10,6 @@
 		(company "EPFL Spacecraft Team")
 	)
 	(lib_symbols
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -423,6 +284,390 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PULSE_Library:C0603X6S0J104M030BC"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "C0603X6S0J104M030BC"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "C0603_Commercial"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "MULTILAYER CERAMIC CHIP CAPACITORS, 0603, Commercial grade, general (Up to 75V)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.33"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "810-C0603X6S0J104M"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/C0603X6S0J104M030BC?qs=dfay7wIA1uFo0HPqgyXFqA%3D%3D"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "TDK"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "C0603X6S0J104M030BC"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "C0603X6S0J104M030BC_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PULSE_Library:C2012X7R1A106M125AC"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "C2012X7R1A106M125AC"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CAPC2012X145N"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "MULTILAYER CERAMIC CHIP CAPACITORS, 2012, Commercial grade, general (Up to 75V)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.45"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "810-C2012X7R1A106M"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/C2012X7R1A106M125AC?qs=LcTL%2F5vFEzFAOv6%2F%252B2aJNg%3D%3D"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "TDK"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "C2012X7R1A106M125AC"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "C2012X7R1A106M125AC_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1224,7 +1469,7 @@
 	)
 	(rectangle
 		(start 23.495 121.285)
-		(end 205.105 201.93)
+		(end 205.105 210.82)
 		(stroke
 			(width 0)
 			(type default)
@@ -1341,6 +1586,18 @@
 		(uuid "1a98fd06-96f5-4c6b-8887-e966b77070f0")
 	)
 	(junction
+		(at 223.52 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "267087c0-e93c-4f71-882f-281b1259bb8e")
+	)
+	(junction
+		(at 347.98 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c1d2fd0-9df5-453d-a0a4-72a90be7ac34")
+	)
+	(junction
 		(at 31.75 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1371,12 +1628,6 @@
 		(uuid "4857ab85-8292-4b30-bda4-550dc0b7a834")
 	)
 	(junction
-		(at 223.52 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ae6bb33-e29d-41c3-8a76-040e6cfc02d0")
-	)
-	(junction
 		(at 78.74 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1405,6 +1656,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58531412-73fd-4936-a92d-7412439f77fc")
+	)
+	(junction
+		(at 349.25 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b45a51a-37d8-44cc-9d75-d0e39a0f42c1")
 	)
 	(junction
 		(at 54.61 147.32)
@@ -1467,12 +1724,6 @@
 		(uuid "7cc716b7-8ad1-4ff1-887a-2d081d6f0ced")
 	)
 	(junction
-		(at 347.98 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84651695-29ca-48fd-b126-3ba09f52ea54")
-	)
-	(junction
 		(at 340.36 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1489,12 +1740,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91333b00-e61d-4170-b808-38b3218396df")
-	)
-	(junction
-		(at 223.52 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "96e21344-2ca2-45db-b22b-32977f6e48f1")
 	)
 	(junction
 		(at 175.26 191.77)
@@ -1515,7 +1760,7 @@
 		(uuid "b09ab047-eb5d-4569-9c97-24ce76801f76")
 	)
 	(junction
-		(at 43.18 193.04)
+		(at 43.18 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5d72b82-3098-4be3-b3d7-1eca2ab23073")
@@ -1539,7 +1784,13 @@
 		(uuid "c4c17e92-e5cb-4a0a-8f7d-b1ed939aaedf")
 	)
 	(junction
-		(at 54.61 193.04)
+		(at 223.52 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4cf3d42-058c-4a94-926e-1cf1bff87db1")
+	)
+	(junction
+		(at 54.61 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4decd31-a02a-4776-a3fa-e96ca68f46d0")
@@ -1575,12 +1826,6 @@
 		(uuid "d91a53ea-d98d-4666-bcb9-a57a168d108f")
 	)
 	(junction
-		(at 349.25 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d91f007c-95d9-4da4-95ca-ca68f99b6e83")
-	)
-	(junction
 		(at 340.36 201.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1598,9 +1843,31 @@
 		(color 0 0 0 0)
 		(uuid "f9aeb7ce-dbaa-4578-a8bc-7cc67e925482")
 	)
+	(no_connect
+		(at 157.48 162.56)
+		(uuid "22ad805d-c862-4913-8b6a-9228c73311eb")
+	)
+	(no_connect
+		(at 157.48 167.64)
+		(uuid "a3f924b2-8c6f-4749-87e2-63419f2b6db2")
+	)
+	(no_connect
+		(at 157.48 170.18)
+		(uuid "f492220a-7f6e-460f-acd7-52ff64be8a68")
+	)
 	(wire
 		(pts
-			(xy 43.18 166.37) (xy 43.18 193.04)
+			(xy 347.98 190.5) (xy 359.41 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03f4823c-4c8f-4026-8ffd-1b69e56c826c")
+	)
+	(wire
+		(pts
+			(xy 43.18 166.37) (xy 43.18 198.12)
 		)
 		(stroke
 			(width 0)
@@ -1710,6 +1977,26 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 71.12) (xy 223.52 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b00fdfd-caea-47d5-97f1-d87bf734e4e8")
+	)
+	(wire
+		(pts
+			(xy 228.6 43.18) (xy 223.52 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1be830f7-4b64-47e7-ade2-606a13ce51bc")
+	)
+	(wire
+		(pts
 			(xy 300.99 40.64) (xy 300.99 48.26)
 		)
 		(stroke
@@ -1750,13 +2037,13 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 71.12) (xy 223.52 69.85)
+			(xy 223.52 43.18) (xy 223.52 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1eebfed5-432b-4579-9044-5259f1449c06")
+		(uuid "1fc85e03-19c3-4c92-85c1-5941845c4b5d")
 	)
 	(wire
 		(pts
@@ -1770,7 +2057,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 195.58) (xy 54.61 193.04)
+			(xy 54.61 200.66) (xy 54.61 198.12)
 		)
 		(stroke
 			(width 0)
@@ -1860,6 +2147,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 144.78) (xy 349.25 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dc6d586-53a2-4e05-babf-24ffd5f1a357")
+	)
+	(wire
+		(pts
 			(xy 31.75 147.32) (xy 31.75 165.1)
 		)
 		(stroke
@@ -1890,13 +2187,13 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 44.45) (xy 223.52 43.18)
+			(xy 93.98 172.72) (xy 93.98 184.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30ba2dc2-9938-49a6-8ab5-1233630692e3")
+		(uuid "3358f16e-d18f-4318-a336-604478eea5c1")
 	)
 	(wire
 		(pts
@@ -1930,7 +2227,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 43.18) (xy 223.52 41.91)
+			(xy 223.52 41.91) (xy 223.52 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1970,6 +2267,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 144.78) (xy 360.68 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f2ef7f0-69e4-49bc-b9b5-1a1d66e111c1")
+	)
+	(wire
+		(pts
 			(xy 95.25 41.91) (xy 110.49 41.91)
 		)
 		(stroke
@@ -1990,23 +2297,13 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 172.72) (xy 161.29 184.15)
+			(xy 161.29 172.72) (xy 161.29 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4634edf9-89b0-4d74-b98d-ec90b374a350")
-	)
-	(wire
-		(pts
-			(xy 93.98 172.72) (xy 93.98 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46913ba6-df30-4c71-8d0d-db9d5eb2095d")
 	)
 	(wire
 		(pts
@@ -2030,23 +2327,13 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 72.39) (xy 223.52 71.12)
+			(xy 223.52 69.85) (xy 223.52 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4c49804b-3fa0-4f8d-842c-d81d1d04c198")
-	)
-	(wire
-		(pts
-			(xy 234.95 71.12) (xy 223.52 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c9fd079-63ae-4f8e-8b7c-ded497133fb1")
 	)
 	(wire
 		(pts
@@ -2110,7 +2397,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 166.37) (xy 54.61 193.04)
+			(xy 54.61 166.37) (xy 54.61 198.12)
 		)
 		(stroke
 			(width 0)
@@ -2160,7 +2447,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 193.04) (xy 43.18 193.04)
+			(xy 31.75 198.12) (xy 43.18 198.12)
 		)
 		(stroke
 			(width 0)
@@ -2200,7 +2487,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 193.04) (xy 54.61 193.04)
+			(xy 43.18 198.12) (xy 54.61 198.12)
 		)
 		(stroke
 			(width 0)
@@ -2257,26 +2544,6 @@
 			(type default)
 		)
 		(uuid "646596c6-65a5-4868-b15e-faa11ddb2bb4")
-	)
-	(wire
-		(pts
-			(xy 234.95 43.18) (xy 223.52 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64c78652-ff1c-4473-ac97-a114c394c810")
-	)
-	(wire
-		(pts
-			(xy 347.98 190.5) (xy 347.98 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65a01a49-c648-4c4a-a70e-4c0dce0a23df")
 	)
 	(wire
 		(pts
@@ -2340,6 +2607,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 71.12) (xy 223.52 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f6ded5c-fc16-44b0-a902-40d105dbe7b6")
+	)
+	(wire
+		(pts
 			(xy 54.61 147.32) (xy 54.61 151.13)
 		)
 		(stroke
@@ -2390,6 +2667,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 74.93) (xy 229.87 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74271047-3b49-4889-a4b0-34bc511b9874")
+	)
+	(wire
+		(pts
 			(xy 234.95 58.42) (xy 234.95 62.23)
 		)
 		(stroke
@@ -2397,16 +2684,6 @@
 			(type default)
 		)
 		(uuid "75e18e2d-d739-4182-b738-d1ba5b00ee2e")
-	)
-	(wire
-		(pts
-			(xy 31.75 172.72) (xy 31.75 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a78d455-39f4-4e03-bf5e-f6008c16d506")
 	)
 	(wire
 		(pts
@@ -2520,16 +2797,6 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 190.5) (xy 359.41 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88dac28c-ed1a-4339-84ae-16a0f369d6a4")
-	)
-	(wire
-		(pts
 			(xy 325.12 144.78) (xy 341.63 144.78)
 		)
 		(stroke
@@ -2590,6 +2857,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 198.12) (xy 82.55 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92845170-4354-44a5-bb07-538327186525")
+	)
+	(wire
+		(pts
 			(xy 340.36 190.5) (xy 347.98 190.5)
 		)
 		(stroke
@@ -2640,16 +2917,6 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 160.02) (xy 349.25 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b11700e-b960-48a9-a565-39a8628e1854")
-	)
-	(wire
-		(pts
 			(xy 165.1 156.21) (xy 165.1 161.29)
 		)
 		(stroke
@@ -2670,6 +2937,26 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 46.99) (xy 228.6 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e505059-8a1f-422e-a665-3e0dc9d6dce1")
+	)
+	(wire
+		(pts
+			(xy 228.6 46.99) (xy 228.6 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ec757bc-9f08-4fdf-86a8-1378916b64c0")
+	)
+	(wire
+		(pts
 			(xy 302.26 72.39) (xy 302.26 80.01)
 		)
 		(stroke
@@ -2677,6 +2964,16 @@
 			(type default)
 		)
 		(uuid "9f0eef82-1b95-40e9-a2ee-41bd60165e79")
+	)
+	(wire
+		(pts
+			(xy 229.87 74.93) (xy 229.87 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a08104f5-d3cf-4f7b-8151-b9cdc5fb84f4")
 	)
 	(wire
 		(pts
@@ -2750,16 +3047,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 193.04) (xy 82.55 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1343d95-2b34-4a20-b05a-105b020a553b")
-	)
-	(wire
-		(pts
 			(xy 157.48 151.13) (xy 157.48 156.21)
 		)
 		(stroke
@@ -2807,16 +3094,6 @@
 			(type default)
 		)
 		(uuid "b4f1b78a-f7ac-4671-ac12-9300dff3eef3")
-	)
-	(wire
-		(pts
-			(xy 349.25 144.78) (xy 349.25 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b80dd196-bcda-4adb-9454-ab8b7dbf0c2b")
 	)
 	(wire
 		(pts
@@ -2970,6 +3247,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 177.8) (xy 31.75 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cccc7a22-04b3-440b-b712-315e696d565c")
+	)
+	(wire
+		(pts
 			(xy 290.83 80.01) (xy 292.1 80.01)
 		)
 		(stroke
@@ -3100,7 +3387,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 144.78) (xy 360.68 144.78)
+			(xy 341.63 144.78) (xy 349.25 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3187,16 +3474,6 @@
 			(type default)
 		)
 		(uuid "e34051b8-3fee-4e0e-b302-07ca6a67ead1")
-	)
-	(wire
-		(pts
-			(xy 341.63 144.78) (xy 349.25 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e429b435-4508-473f-b751-4d7f62e2ffe3")
 	)
 	(wire
 		(pts
@@ -3380,6 +3657,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 190.5) (xy 347.98 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fda4204d-7e34-42c5-be64-03cf8a721b79")
+	)
+	(wire
+		(pts
 			(xy 308.61 73.66) (xy 308.61 72.39)
 		)
 		(stroke
@@ -3397,16 +3684,6 @@
 			(type default)
 		)
 		(uuid "fe6258c1-1182-49fc-ad11-b67276ee913c")
-	)
-	(wire
-		(pts
-			(xy 347.98 205.74) (xy 347.98 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe8d4892-d781-4db9-8506-0766cc78a532")
 	)
 	(wire
 		(pts
@@ -4177,7 +4454,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "043d3471-7e71-4a02-a0cb-4561cc25ce9d")
-		(property "Reference" "R_IN"
+		(property "Reference" "R_IN2"
 			(at 318.77 130.8099 0)
 			(effects
 				(font
@@ -4195,7 +4472,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 326.898 132.08 90)
 			(effects
 				(font
@@ -4231,76 +4508,7 @@
 		(instances
 			(project "PULSE_ENG"
 				(path "/2de881bb-2e2a-47f9-96ed-b3393fa36b98/a5146b04-836d-4686-bab4-a3d53d2a41a7"
-					(reference "R_IN")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 161.29 187.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "10b77e3f-a953-4b3f-8cbf-9d26424b4080")
-		(property "Reference" "C84"
-			(at 151.892 186.436 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 151.892 188.976 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.2552 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 161.29 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "96f0ca16-af1e-4134-912d-016786d4698d")
-		)
-		(pin "2"
-			(uuid "88206e4b-d5ef-4663-b38b-fd55a9064957")
-		)
-		(instances
-			(project "PULSE_ENG"
-				(path "/2de881bb-2e2a-47f9-96ed-b3393fa36b98/a5146b04-836d-4686-bab4-a3d53d2a41a7"
-					(reference "C84")
+					(reference "R_IN2")
 					(unit 1)
 				)
 			)
@@ -4332,7 +4540,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MSOP-8_MS_LIT"
+		(property "Footprint" "PULSE_Library:MSOP-8_MS_LIT"
 			(at 254 139.7 0)
 			(effects
 				(font
@@ -4573,7 +4781,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 44.958 162.56 90)
 			(effects
 				(font
@@ -4727,7 +4935,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 310.388 68.58 90)
 			(effects
 				(font
@@ -4794,7 +5002,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 177.8 157.988 90)
 			(effects
 				(font
@@ -4845,7 +5053,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3fa020ba-aa9e-4bb4-8aeb-ced10f1d3195")
-		(property "Reference" "R_FILT2"
+		(property "Reference" "R_FILT10"
 			(at 337.058 150.368 0)
 			(effects
 				(font
@@ -4861,7 +5069,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 343.408 151.13 90)
 			(effects
 				(font
@@ -4897,7 +5105,7 @@
 		(instances
 			(project "PULSE_ENG"
 				(path "/2de881bb-2e2a-47f9-96ed-b3393fa36b98/a5146b04-836d-4686-bab4-a3d53d2a41a7"
-					(reference "R_FILT2")
+					(reference "R_FILT10")
 					(unit 1)
 				)
 			)
@@ -4931,7 +5139,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 191.008 166.37 90)
 			(effects
 				(font
@@ -4982,7 +5190,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46dc2564-4653-4dd9-87df-967a151d36eb")
-		(property "Reference" "R_hyst"
+		(property "Reference" "R_hyst3"
 			(at 70.866 178.562 0)
 			(effects
 				(font
@@ -5000,7 +5208,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 80.518 180.34 90)
 			(effects
 				(font
@@ -5036,85 +5244,15 @@
 		(instances
 			(project "PULSE_ENG"
 				(path "/2de881bb-2e2a-47f9-96ed-b3393fa36b98/a5146b04-836d-4686-bab4-a3d53d2a41a7"
-					(reference "R_hyst")
+					(reference "R_hyst3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 349.25 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "493d4a2a-d22f-4066-bef5-feee252ecb38")
-		(property "Reference" "C81"
-			(at 353.06 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 353.06 157.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 350.2152 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 349.25 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 349.25 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "10bbb011-6979-4c62-8acb-90ff81be0d33")
-		)
-		(pin "2"
-			(uuid "4f53d8a6-f448-4158-b3c9-96a649cbffa0")
-		)
-		(instances
-			(project "PULSE_ENG"
-				(path "/2de881bb-2e2a-47f9-96ed-b3393fa36b98/a5146b04-836d-4686-bab4-a3d53d2a41a7"
-					(reference "C81")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 82.55 189.23 0)
+		(lib_id "PULSE_Library:C0603X6S0J104M030BC")
+		(at 82.55 198.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5122,7 +5260,7 @@
 		(dnp no)
 		(uuid "4b935d13-d830-45b8-8591-51ca8be387a1")
 		(property "Reference" "C83"
-			(at 73.152 187.706 0)
+			(at 86.614 194.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5131,7 +5269,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 73.152 190.246 0)
+			(at 89.154 194.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5139,8 +5277,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 83.5152 193.04 0)
+		(property "Footprint" "C0603_Commercial"
+			(at 178.74 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+			(at 278.74 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MULTILAYER CERAMIC CHIP CAPACITORS, 0603, Commercial grade, general (Up to 75V)"
+			(at 82.55 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5148,21 +5306,53 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 82.55 189.23 0)
+		(property "Height" "0.33"
+			(at 478.74 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 82.55 189.23 0)
+		(property "Mouser Part Number" "810-C0603X6S0J104M"
+			(at 578.74 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/C0603X6S0J104M030BC?qs=dfay7wIA1uFo0HPqgyXFqA%3D%3D"
+			(at 678.74 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 778.74 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603X6S0J104M030BC"
+			(at 878.74 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
@@ -5208,7 +5398,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 325.628 177.8 90)
 			(effects
 				(font
@@ -5275,7 +5465,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 342.138 205.74 90)
 			(effects
 				(font
@@ -5318,8 +5508,129 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 234.95 66.04 0)
+		(lib_id "PULSE_Library:C0603X6S0J104M030BC")
+		(at 161.29 191.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5eb6b78a-d391-49ea-9492-a934cf5a9b9e")
+		(property "Reference" "C84"
+			(at 165.354 187.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 167.894 187.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "C0603_Commercial"
+			(at 257.48 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+			(at 357.48 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MULTILAYER CERAMIC CHIP CAPACITORS, 0603, Commercial grade, general (Up to 75V)"
+			(at 161.29 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.33"
+			(at 557.48 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "810-C0603X6S0J104M"
+			(at 657.48 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/C0603X6S0J104M030BC?qs=dfay7wIA1uFo0HPqgyXFqA%3D%3D"
+			(at 757.48 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 857.48 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603X6S0J104M030BC"
+			(at 957.48 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63c75966-b870-4ee1-96a5-02042708fcdf")
+		)
+		(pin "2"
+			(uuid "8a32a848-941f-4bbc-b967-7eafca166f92")
+		)
+		(instances
+			(project "PULSE_ENG"
+				(path "/2de881bb-2e2a-47f9-96ed-b3393fa36b98/a5146b04-836d-4686-bab4-a3d53d2a41a7"
+					(reference "C84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PULSE_Library:C2012X7R1A106M125AC")
+		(at 234.95 62.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5328,7 +5639,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f8c58e4-b1cd-42a8-903a-dc71d9052f02")
 		(property "Reference" "C80"
-			(at 238.76 64.7699 0)
+			(at 238.76 67.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5337,7 +5648,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 238.76 67.3099 0)
+			(at 238.76 69.8499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5345,8 +5656,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 235.9152 69.85 0)
+		(property "Footprint" "CAPC2012X145N"
+			(at 138.76 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf"
+			(at 38.76 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MULTILAYER CERAMIC CHIP CAPACITORS, 2012, Commercial grade, general (Up to 75V)"
+			(at 234.95 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5354,21 +5685,53 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 234.95 66.04 0)
+		(property "Height" "1.45"
+			(at -161.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 234.95 66.04 0)
+		(property "Mouser Part Number" "810-C2012X7R1A106M"
+			(at -261.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/C2012X7R1A106M125AC?qs=LcTL%2F5vFEzFAOv6%2F%252B2aJNg%3D%3D"
+			(at -361.24 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at -461.24 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C2012X7R1A106M125AC"
+			(at -561.24 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
@@ -5397,7 +5760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f9db5c9-3129-4d28-b79d-a0c57adb09a1")
-		(property "Reference" "R_TOP"
+		(property "Reference" "R_TOP6"
 			(at 217.17 24.13 90)
 			(effects
 				(font
@@ -5413,7 +5776,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 217.17 32.258 90)
 			(effects
 				(font
@@ -5449,7 +5812,7 @@
 		(instances
 			(project ""
 				(path "/2de881bb-2e2a-47f9-96ed-b3393fa36b98/a5146b04-836d-4686-bab4-a3d53d2a41a7"
-					(reference "R_TOP")
+					(reference "R_TOP6")
 					(unit 1)
 				)
 			)
@@ -5482,7 +5845,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 56.388 162.56 90)
 			(effects
 				(font
@@ -5551,7 +5914,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 56.388 154.94 90)
 			(effects
 				(font
@@ -5618,7 +5981,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 342.138 196.85 90)
 			(effects
 				(font
@@ -5793,76 +6156,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 347.98 201.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e7325fa-b273-4adb-9e12-3b0886b26cdb")
-		(property "Reference" "C85"
-			(at 351.79 200.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 351.79 203.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 348.9452 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 347.98 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 347.98 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e209c36d-7a4a-4184-84b3-f8e44c95f4f3")
-		)
-		(pin "2"
-			(uuid "0c6ea941-590b-46ee-97dc-ee8f52f713c6")
-		)
-		(instances
-			(project "PULSE_ENG"
-				(path "/2de881bb-2e2a-47f9-96ed-b3393fa36b98/a5146b04-836d-4686-bab4-a3d53d2a41a7"
-					(reference "C85")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 321.31 64.77 90)
 		(unit 1)
@@ -5872,7 +6165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85e8222f-efd2-4b47-8c3e-2c1155c7d3b3")
-		(property "Reference" "R_MCU2"
+		(property "Reference" "R_MCU_EN2"
 			(at 321.31 58.42 90)
 			(effects
 				(font
@@ -5888,7 +6181,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 321.31 66.548 90)
 			(effects
 				(font
@@ -5924,7 +6217,7 @@
 		(instances
 			(project "PULSE_ENG"
 				(path "/2de881bb-2e2a-47f9-96ed-b3393fa36b98/a5146b04-836d-4686-bab4-a3d53d2a41a7"
-					(reference "R_MCU2")
+					(reference "R_MCU_EN2")
 					(unit 1)
 				)
 			)
@@ -6130,7 +6423,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 191.008 173.99 90)
 			(effects
 				(font
@@ -6197,7 +6490,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 72.39 154.178 90)
 			(effects
 				(font
@@ -6265,7 +6558,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 217.17 60.198 90)
 			(effects
 				(font
@@ -6383,7 +6676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2e5dfd2-6c2c-42b9-a9db-437233f299a4")
-		(property "Reference" "R_MCU"
+		(property "Reference" "R_MCU_EN1"
 			(at 321.31 26.67 90)
 			(effects
 				(font
@@ -6399,7 +6692,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 321.31 34.798 90)
 			(effects
 				(font
@@ -6435,7 +6728,7 @@
 		(instances
 			(project "PULSE_ENG"
 				(path "/2de881bb-2e2a-47f9-96ed-b3393fa36b98/a5146b04-836d-4686-bab4-a3d53d2a41a7"
-					(reference "R_MCU")
+					(reference "R_MCU_EN1")
 					(unit 1)
 				)
 			)
@@ -6602,7 +6895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b53d2280-a942-48dc-a1ef-a85485e88129")
-		(property "Reference" "R_BOT"
+		(property "Reference" "R_BOT6"
 			(at 226.06 36.8299 0)
 			(effects
 				(font
@@ -6620,7 +6913,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 225.298 38.1 90)
 			(effects
 				(font
@@ -6656,7 +6949,7 @@
 		(instances
 			(project "PULSE_ENG"
 				(path "/2de881bb-2e2a-47f9-96ed-b3393fa36b98/a5146b04-836d-4686-bab4-a3d53d2a41a7"
-					(reference "R_BOT")
+					(reference "R_BOT6")
 					(unit 1)
 				)
 			)
@@ -6690,7 +6983,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 166.878 165.1 90)
 			(effects
 				(font
@@ -6727,6 +7020,127 @@
 			(project "PULSE_ENG"
 				(path "/2de881bb-2e2a-47f9-96ed-b3393fa36b98/a5146b04-836d-4686-bab4-a3d53d2a41a7"
 					(reference "R_hyst1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PULSE_Library:C0603X6S0J104M030BC")
+		(at 347.98 210.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8db5b05-70ac-4a07-87b8-baa8f9aded8e")
+		(property "Reference" "C85"
+			(at 352.044 206.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 354.584 206.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "C0603_Commercial"
+			(at 444.17 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+			(at 544.17 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MULTILAYER CERAMIC CHIP CAPACITORS, 0603, Commercial grade, general (Up to 75V)"
+			(at 347.98 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.33"
+			(at 744.17 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "810-C0603X6S0J104M"
+			(at 844.17 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/C0603X6S0J104M030BC?qs=dfay7wIA1uFo0HPqgyXFqA%3D%3D"
+			(at 944.17 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 1044.17 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603X6S0J104M030BC"
+			(at 1144.17 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "030c4e92-95a2-4a3a-baf0-334a52f6caac")
+		)
+		(pin "2"
+			(uuid "1b469e98-3b6b-4434-a8ad-08d38cde1ecb")
+		)
+		(instances
+			(project "PULSE_ENG"
+				(path "/2de881bb-2e2a-47f9-96ed-b3393fa36b98/a5146b04-836d-4686-bab4-a3d53d2a41a7"
+					(reference "C85")
 					(unit 1)
 				)
 			)
@@ -6825,7 +7239,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 84.328 180.34 90)
 			(effects
 				(font
@@ -6893,7 +7307,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MSOP-8_MS_LIT"
+		(property "Footprint" "PULSE_Library:MSOP-8_MS_LIT"
 			(at 252.73 185.42 0)
 			(effects
 				(font
@@ -7126,8 +7540,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 31.75 168.91 0)
+		(lib_id "PULSE_Library:C0603X6S0J104M030BC")
+		(at 31.75 165.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7136,7 +7550,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd1b0c97-8340-46b7-9cfc-0174ead427e2")
 		(property "Reference" "C82"
-			(at 35.56 167.6399 0)
+			(at 35.56 170.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7145,7 +7559,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 35.56 170.1799 0)
+			(at 35.56 172.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7153,8 +7567,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 32.7152 172.72 0)
+		(property "Footprint" "C0603_Commercial"
+			(at -64.44 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+			(at -164.44 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MULTILAYER CERAMIC CHIP CAPACITORS, 0603, Commercial grade, general (Up to 75V)"
+			(at 31.75 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7162,21 +7596,53 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 31.75 168.91 0)
+		(property "Height" "0.33"
+			(at -364.44 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 31.75 168.91 0)
+		(property "Mouser Part Number" "810-C0603X6S0J104M"
+			(at -464.44 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/C0603X6S0J104M030BC?qs=dfay7wIA1uFo0HPqgyXFqA%3D%3D"
+			(at -564.44 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at -664.44 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603X6S0J104M030BC"
+			(at -764.44 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
@@ -7223,7 +7689,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 225.298 66.04 90)
 			(effects
 				(font
@@ -7266,8 +7732,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 234.95 38.1 0)
+		(lib_id "PULSE_Library:C2012X7R1A106M125AC")
+		(at 234.95 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7276,7 +7742,7 @@
 		(fields_autoplaced yes)
 		(uuid "d81cfc3e-15f5-49ab-a1d5-b96c42d64ae8")
 		(property "Reference" "C79"
-			(at 238.76 36.8299 0)
+			(at 238.76 39.3699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7285,7 +7751,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 238.76 39.3699 0)
+			(at 238.76 41.9099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7293,8 +7759,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 235.9152 41.91 0)
+		(property "Footprint" "CAPC2012X145N"
+			(at 138.76 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf"
+			(at 38.76 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MULTILAYER CERAMIC CHIP CAPACITORS, 2012, Commercial grade, general (Up to 75V)"
+			(at 234.95 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7302,21 +7788,53 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 234.95 38.1 0)
+		(property "Height" "1.45"
+			(at -161.24 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 234.95 38.1 0)
+		(property "Mouser Part Number" "810-C2012X7R1A106M"
+			(at -261.24 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/C2012X7R1A106M125AC?qs=LcTL%2F5vFEzFAOv6%2F%252B2aJNg%3D%3D"
+			(at -361.24 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at -461.24 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C2012X7R1A106M125AC"
+			(at -561.24 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
@@ -7362,7 +7880,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 44.958 154.94 90)
 			(effects
 				(font
@@ -7478,7 +7996,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1e3e5bc-2442-4ec0-b92e-0ef5ee9a0db3")
-		(property "Reference" "R_PD"
+		(property "Reference" "R_PD2"
 			(at 310.388 36.068 0)
 			(effects
 				(font
@@ -7496,7 +8014,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 310.388 36.83 90)
 			(effects
 				(font
@@ -7532,7 +8050,7 @@
 		(instances
 			(project "PULSE_ENG"
 				(path "/2de881bb-2e2a-47f9-96ed-b3393fa36b98/a5146b04-836d-4686-bab4-a3d53d2a41a7"
-					(reference "R_PD")
+					(reference "R_PD2")
 					(unit 1)
 				)
 			)
@@ -7540,7 +8058,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 54.61 195.58 0)
+		(at 54.61 200.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7549,7 +8067,7 @@
 		(fields_autoplaced yes)
 		(uuid "e20f5c83-8c56-43aa-95e2-cd1f52a01ff8")
 		(property "Reference" "#PWR015"
-			(at 54.61 201.93 0)
+			(at 54.61 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7558,7 +8076,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 200.66 0)
+			(at 54.61 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7566,7 +8084,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 195.58 0)
+			(at 54.61 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7575,7 +8093,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 195.58 0)
+			(at 54.61 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7584,7 +8102,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 195.58 0)
+			(at 54.61 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7599,6 +8117,127 @@
 			(project "PULSE_ENG"
 				(path "/2de881bb-2e2a-47f9-96ed-b3393fa36b98/a5146b04-836d-4686-bab4-a3d53d2a41a7"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PULSE_Library:C0603X6S0J104M030BC")
+		(at 349.25 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc5e9277-88fd-4e5c-8909-398a2847b870")
+		(property "Reference" "C81"
+			(at 353.314 161.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 355.854 161.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "C0603_Commercial"
+			(at 445.44 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+			(at 545.44 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MULTILAYER CERAMIC CHIP CAPACITORS, 0603, Commercial grade, general (Up to 75V)"
+			(at 349.25 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.33"
+			(at 745.44 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "810-C0603X6S0J104M"
+			(at 845.44 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/C0603X6S0J104M030BC?qs=dfay7wIA1uFo0HPqgyXFqA%3D%3D"
+			(at 945.44 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 1045.44 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603X6S0J104M030BC"
+			(at 1145.44 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99bc8cc1-2e46-41cc-99f4-31e71019bf23")
+		)
+		(pin "2"
+			(uuid "7bcef6ff-741a-4502-9960-91b05a304e4c")
+		)
+		(instances
+			(project "PULSE_ENG"
+				(path "/2de881bb-2e2a-47f9-96ed-b3393fa36b98/a5146b04-836d-4686-bab4-a3d53d2a41a7"
+					(reference "C81")
 					(unit 1)
 				)
 			)
@@ -7715,7 +8354,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 343.408 160.02 90)
 			(effects
 				(font
@@ -7782,7 +8421,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 72.39 163.068 90)
 			(effects
 				(font

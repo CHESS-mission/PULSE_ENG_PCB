@@ -2801,7 +2801,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CAPC3216X180N"
+		(property "Footprint" "PULSE_Library:CAPC3216X180N"
 			(at 273.99 78.74 0)
 			(effects
 				(font

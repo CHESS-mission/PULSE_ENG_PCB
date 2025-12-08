@@ -14096,7 +14096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" "PULSE_Library:RESC1608X55N"
 			(at 80.01 441.63 0)
 			(effects
 				(font
@@ -14592,7 +14592,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603"
+		(property "Footprint" "PULSE_Library:C0603"
 			(at 214.3 297.18 0)
 			(effects
 				(font
@@ -15369,7 +15369,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603"
+		(property "Footprint" "PULSE_Library:C0603"
 			(at 503.86 97.79 0)
 			(effects
 				(font
@@ -15494,7 +15494,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" "PULSE_Library:RESC1608X55N"
 			(at 116.84 211.76 0)
 			(effects
 				(font
@@ -15619,7 +15619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603"
+		(property "Footprint" "PULSE_Library:C0603"
 			(at 500.05 220.98 0)
 			(effects
 				(font
@@ -15818,7 +15818,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP50P490X110-10N"
+		(property "Footprint" "PULSE_Library:SOP50P490X110-10N"
 			(at 147.32 150.8 0)
 			(effects
 				(font
@@ -16473,7 +16473,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603"
+		(property "Footprint" "PULSE_Library:C0603"
 			(at 599.11 110.49 0)
 			(effects
 				(font
@@ -16856,7 +16856,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "PULSE_Library:SOIC127P600X175-8N"
 			(at 461.01 211.76 0)
 			(effects
 				(font
@@ -17000,7 +17000,7 @@
 				)
 			)
 		)
-		(property "Footprint" "INDPM4440X200N"
+		(property "Footprint" "PULSE_Library:INDPM4440X200N"
 			(at 414.35 231.14 0)
 			(effects
 				(font
@@ -17329,7 +17329,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603"
+		(property "Footprint" "PULSE_Library:C0603"
 			(at 260.02 332.74 0)
 			(effects
 				(font
@@ -17454,7 +17454,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" "PULSE_Library:RESC1608X55N"
 			(at 125.73 211.76 0)
 			(effects
 				(font
@@ -17579,7 +17579,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603"
+		(property "Footprint" "PULSE_Library:C0603"
 			(at 509.27 167.31 0)
 			(effects
 				(font
@@ -17829,7 +17829,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603"
+		(property "Footprint" "PULSE_Library:C0603"
 			(at 252.4 106.68 0)
 			(effects
 				(font
@@ -17954,7 +17954,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603"
+		(property "Footprint" "PULSE_Library:C0603"
 			(at 233.35 184.15 0)
 			(effects
 				(font
@@ -18079,7 +18079,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603"
+		(property "Footprint" "PULSE_Library:C0603"
 			(at 71.12 454.33 0)
 			(effects
 				(font
@@ -18329,7 +18329,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603"
+		(property "Footprint" "PULSE_Library:C0603"
 			(at 506.73 281.61 0)
 			(effects
 				(font
@@ -18954,7 +18954,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAPC2012X145N"
+		(property "Footprint" "PULSE_Library:CAPC2012X145N"
 			(at 383.54 219.38 0)
 			(effects
 				(font
@@ -19408,7 +19408,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAPC2012X145N"
+		(property "Footprint" "PULSE_Library:CAPC2012X145N"
 			(at 113.03 265.1 0)
 			(effects
 				(font
@@ -21551,7 +21551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAPC2012X145N"
+		(property "Footprint" "PULSE_Library:CAPC2012X145N"
 			(at 454.66 220.65 0)
 			(effects
 				(font
@@ -22455,7 +22455,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAPC2012X145N"
+		(property "Footprint" "PULSE_Library:CAPC2012X145N"
 			(at 450.85 343.84 0)
 			(effects
 				(font
@@ -22836,7 +22836,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603"
+		(property "Footprint" "PULSE_Library:C0603"
 			(at 498.78 279.4 0)
 			(effects
 				(font
@@ -23033,7 +23033,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603"
+		(property "Footprint" "PULSE_Library:C0603"
 			(at 504.19 347.65 0)
 			(effects
 				(font
@@ -23409,7 +23409,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAPC2012X145N"
+		(property "Footprint" "PULSE_Library:CAPC2012X145N"
 			(at 110.49 347.65 0)
 			(effects
 				(font
@@ -23862,7 +23862,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603"
+		(property "Footprint" "PULSE_Library:C0603"
 			(at 594.03 292.1 0)
 			(effects
 				(font
@@ -23987,7 +23987,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603"
+		(property "Footprint" "PULSE_Library:C0603"
 			(at 295.91 351.46 0)
 			(effects
 				(font
@@ -24112,7 +24112,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAPC2012X145N"
+		(property "Footprint" "PULSE_Library:CAPC2012X145N"
 			(at 453.39 277.8 0)
 			(effects
 				(font
@@ -24238,7 +24238,7 @@
 				)
 			)
 		)
-		(property "Footprint" "INDPM4440X200N"
+		(property "Footprint" "PULSE_Library:INDPM4440X200N"
 			(at 419.43 50.8 0)
 			(effects
 				(font
@@ -24363,7 +24363,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAPC2012X145N"
+		(property "Footprint" "PULSE_Library:CAPC2012X145N"
 			(at 379.73 342.57 0)
 			(effects
 				(font
@@ -25061,7 +25061,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAPC2012X145N"
+		(property "Footprint" "PULSE_Library:CAPC2012X145N"
 			(at 140.97 407.34 0)
 			(effects
 				(font
@@ -25186,7 +25186,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAPC2012X145N"
+		(property "Footprint" "PULSE_Library:CAPC2012X145N"
 			(at 111.76 307.01 0)
 			(effects
 				(font
@@ -25754,7 +25754,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAPC2012X145N"
+		(property "Footprint" "PULSE_Library:CAPC2012X145N"
 			(at 384.81 162.23 0)
 			(effects
 				(font
@@ -26221,7 +26221,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603"
+		(property "Footprint" "PULSE_Library:C0603"
 			(at 261.29 285.75 0)
 			(effects
 				(font
@@ -26347,7 +26347,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "PULSE_Library:SOIC127P600X175-8N"
 			(at 99.06 445.44 0)
 			(effects
 				(font
@@ -26490,7 +26490,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603"
+		(property "Footprint" "PULSE_Library:C0603"
 			(at 72.39 407.34 0)
 			(effects
 				(font
@@ -26615,7 +26615,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603"
+		(property "Footprint" "PULSE_Library:C0603"
 			(at 252.4 62.23 0)
 			(effects
 				(font
@@ -27117,7 +27117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAPC2012X145N"
+		(property "Footprint" "PULSE_Library:CAPC2012X145N"
 			(at 378.46 400.99 0)
 			(effects
 				(font
@@ -27617,7 +27617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAPC2012X145N"
+		(property "Footprint" "PULSE_Library:CAPC2012X145N"
 			(at 382.27 276.53 0)
 			(effects
 				(font
@@ -27815,7 +27815,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "PULSE_Library:SOIC127P600X175-8N"
 			(at 100.33 398.45 0)
 			(effects
 				(font
@@ -29023,7 +29023,7 @@
 				)
 			)
 		)
-		(property "Footprint" "INDPM4440X200N"
+		(property "Footprint" "PULSE_Library:INDPM4440X200N"
 			(at 418.16 107.95 0)
 			(effects
 				(font
@@ -29222,7 +29222,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" "PULSE_Library:RESC1608X55N"
 			(at 81.28 394.64 0)
 			(effects
 				(font
@@ -29347,7 +29347,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" "PULSE_Library:RESC1608X55N"
 			(at 133.35 167.31 0)
 			(effects
 				(font
@@ -29854,7 +29854,7 @@
 				)
 			)
 		)
-		(property "Footprint" "INDPM4440X200N"
+		(property "Footprint" "PULSE_Library:INDPM4440X200N"
 			(at 416.89 165.1 0)
 			(effects
 				(font
@@ -29979,7 +29979,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603"
+		(property "Footprint" "PULSE_Library:C0603"
 			(at 505.13 40.64 0)
 			(effects
 				(font
@@ -30104,7 +30104,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603"
+		(property "Footprint" "PULSE_Library:C0603"
 			(at 294.64 409.88 0)
 			(effects
 				(font
@@ -30229,7 +30229,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603"
+		(property "Footprint" "PULSE_Library:C0603"
 			(at 600.38 53.34 0)
 			(effects
 				(font
@@ -30354,7 +30354,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" "PULSE_Library:RESC1608X55N"
 			(at 124.46 167.31 0)
 			(effects
 				(font
@@ -30479,7 +30479,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603"
+		(property "Footprint" "PULSE_Library:C0603"
 			(at 597.84 167.64 0)
 			(effects
 				(font
@@ -30778,7 +30778,7 @@
 				)
 			)
 		)
-		(property "Footprint" "INDPM4440X200N"
+		(property "Footprint" "PULSE_Library:INDPM4440X200N"
 			(at 413.08 289.56 0)
 			(effects
 				(font
@@ -30903,7 +30903,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603"
+		(property "Footprint" "PULSE_Library:C0603"
 			(at 595.3 233.68 0)
 			(effects
 				(font
@@ -31029,7 +31029,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP50P490X110-10N"
+		(property "Footprint" "PULSE_Library:SOP50P490X110-10N"
 			(at 147.32 195.25 0)
 			(effects
 				(font
@@ -31179,7 +31179,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "PULSE_Library:SOIC127P600X175-8N"
 			(at 487.68 334.95 0)
 			(effects
 				(font
@@ -31323,7 +31323,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "PULSE_Library:SOIC127P600X175-8N"
 			(at 486.41 393.37 0)
 			(effects
 				(font
@@ -31867,7 +31867,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603"
+		(property "Footprint" "PULSE_Library:C0603"
 			(at 300.99 171.12 0)
 			(effects
 				(font
@@ -32189,7 +32189,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603"
+		(property "Footprint" "PULSE_Library:C0603"
 			(at 508 224.46 0)
 			(effects
 				(font
@@ -32314,7 +32314,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603"
+		(property "Footprint" "PULSE_Library:C0603"
 			(at 298.45 285.42 0)
 			(effects
 				(font
@@ -32439,7 +32439,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAPC2012X145N"
+		(property "Footprint" "PULSE_Library:CAPC2012X145N"
 			(at 139.7 454.33 0)
 			(effects
 				(font
@@ -32564,7 +32564,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAPC2012X145N"
+		(property "Footprint" "PULSE_Library:CAPC2012X145N"
 			(at 449.58 402.26 0)
 			(effects
 				(font
@@ -32689,7 +32689,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603"
+		(property "Footprint" "PULSE_Library:C0603"
 			(at 299.72 228.27 0)
 			(effects
 				(font
@@ -32814,7 +32814,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603"
+		(property "Footprint" "PULSE_Library:C0603"
 			(at 502.92 406.07 0)
 			(effects
 				(font
@@ -33986,7 +33986,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603"
+		(property "Footprint" "PULSE_Library:C0603"
 			(at 234.62 142.24 0)
 			(effects
 				(font
@@ -34888,7 +34888,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603"
+		(property "Footprint" "PULSE_Library:C0603"
 			(at 502.59 154.94 0)
 			(effects
 				(font
@@ -35013,7 +35013,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAPC2012X145N"
+		(property "Footprint" "PULSE_Library:CAPC2012X145N"
 			(at 455.93 163.5 0)
 			(effects
 				(font
@@ -35265,7 +35265,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "PULSE_Library:SOIC127P600X175-8N"
 			(at 462.28 154.61 0)
 			(effects
 				(font
@@ -35410,7 +35410,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "PULSE_Library:SOIC127P600X175-8N"
 			(at 459.74 268.91 0)
 			(effects
 				(font
@@ -35553,7 +35553,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603"
+		(property "Footprint" "PULSE_Library:C0603"
 			(at 213.03 344.17 0)
 			(effects
 				(font
@@ -35678,7 +35678,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C0603"
+		(property "Footprint" "PULSE_Library:C0603"
 			(at 232.08 224.79 0)
 			(effects
 				(font
