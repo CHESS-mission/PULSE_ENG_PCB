@@ -1,5 +1,5 @@
 (sym_lib_table
   (version 7)
   (lib (name "PULSE_Library")(type "KiCad")(uri "${KIPRJMOD}/PULSE_Library.kicad_sym")(options "")(descr ""))
-  (lib (name "EPC_FETs")(type "KiCad")(uri "/Users/lorisbregy/Downloads/EPC-KiCad-Library/KiSymbols/EPC_FETs.kicad_sym")(options "")(descr "")(disabled)(hidden))
+  (lib (name "EPC_FETs")(type "KiCad")(uri "/Users/tom/Downloads/EPC-KiCad-Library/KiSymbols/EPC_FETs.kicad_sym")(options "")(descr ""))
 )
