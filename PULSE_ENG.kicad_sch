@@ -5734,7 +5734,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.205 308.61) (xy 372.745 308.61)
+			(xy 365.125 287.02) (xy 365.76 287.02)
 		)
 		(stroke
 			(width 0)
@@ -5964,7 +5964,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.205 311.15) (xy 372.745 311.15)
+			(xy 365.125 289.56) (xy 365.76 289.56)
 		)
 		(stroke
 			(width 0)
@@ -6225,7 +6225,7 @@
 		(uuid "4f4244e6-49e7-4046-89ea-067a408e1870")
 	)
 	(label "UART1_TX"
-		(at 370.205 308.61 180)
+		(at 365.125 287.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6277,7 +6277,7 @@
 		(uuid "92e3da15-f701-48da-922e-a081dd5d14b0")
 	)
 	(label "UART1_RX"
-		(at 370.205 311.15 180)
+		(at 365.125 289.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6481,7 +6481,7 @@
 	)
 	(global_label "SWCLK"
 		(shape input)
-		(at 372.745 374.65 180)
+		(at 365.76 353.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6491,7 +6491,7 @@
 		)
 		(uuid "103fed99-3f41-4172-b18d-af5b8cfa6748")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 363.5308 374.65 0)
+			(at 356.5458 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6815,7 +6815,7 @@
 	)
 	(global_label "GNDANA"
 		(shape input)
-		(at 393.065 387.35 270)
+		(at 386.08 365.76 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6825,7 +6825,7 @@
 		)
 		(uuid "61184197-93cc-4dcb-bb5d-5d34fd11b1b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 393.065 397.7134 90)
+			(at 386.08 376.1234 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7060,7 +7060,7 @@
 	)
 	(global_label "VDDIN"
 		(shape input)
-		(at 387.985 290.83 90)
+		(at 381 269.24 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7070,7 +7070,7 @@
 		)
 		(uuid "97684bd3-9136-4c79-a43e-7f3272f4ba90")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 387.985 282.2809 90)
+			(at 381 260.6909 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7280,7 +7280,7 @@
 	)
 	(global_label "SWDIO"
 		(shape input)
-		(at 372.745 377.19 180)
+		(at 365.76 355.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7290,7 +7290,7 @@
 		)
 		(uuid "c4fcc6b6-b494-4f28-8076-47e920265a7c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 363.8936 377.19 0)
+			(at 356.9086 355.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7457,7 +7457,7 @@
 	)
 	(global_label "VDDCORE"
 		(shape input)
-		(at 382.905 290.83 90)
+		(at 375.92 269.24 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7467,7 +7467,7 @@
 		)
 		(uuid "e578c3c3-aca4-46a5-bc69-6542bdbeb819")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 382.905 279.1967 90)
+			(at 375.92 257.6067 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7546,7 +7546,7 @@
 	)
 	(global_label "VDDANA"
 		(shape input)
-		(at 398.145 290.83 90)
+		(at 391.16 269.24 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7556,7 +7556,7 @@
 		)
 		(uuid "ec9d2da6-5952-49ff-b699-07a3d76d8d45")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 398.145 280.7085 90)
+			(at 391.16 259.1185 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7636,7 +7636,7 @@
 	)
 	(global_label "nRESET"
 		(shape input)
-		(at 372.745 382.27 180)
+		(at 365.76 360.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7646,7 +7646,7 @@
 		)
 		(uuid "f6081148-ffe7-41fd-bd34-e2006736b4e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 362.8657 382.27 0)
+			(at 355.8807 360.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7658,7 +7658,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 390.525 387.35 270)
+		(at 383.54 365.76 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7668,7 +7668,7 @@
 		)
 		(uuid "f86baf83-fc6a-4161-b858-eccc3b12f1a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 390.525 394.2057 90)
+			(at 383.54 372.6157 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7680,7 +7680,7 @@
 	)
 	(global_label "VDDIO"
 		(shape input)
-		(at 395.605 290.83 90)
+		(at 388.62 269.24 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7690,7 +7690,7 @@
 		)
 		(uuid "fbb40aa3-fd68-4bfa-91e2-318ac4653003")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 395.605 282.2809 90)
+			(at 388.62 260.6909 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7814,7 +7814,7 @@
 	)
 	(symbol
 		(lib_id "MCU_Microchip_SAMD:ATSAMD21J17D-M")
-		(at 390.525 339.09 0)
+		(at 383.54 317.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7823,7 +7823,7 @@
 		(fields_autoplaced yes)
 		(uuid "4721cb92-bf34-474f-a86a-cdf5501f4ddc")
 		(property "Reference" "U1"
-			(at 395.2083 387.35 0)
+			(at 388.2233 365.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7832,7 +7832,7 @@
 			)
 		)
 		(property "Value" "ATSAMD21J17D-M"
-			(at 395.2083 389.89 0)
+			(at 388.2233 368.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7841,7 +7841,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP4.7x4.7mm"
-			(at 424.815 386.08 0)
+			(at 417.83 364.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7850,7 +7850,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf"
-			(at 390.525 313.69 0)
+			(at 383.54 292.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7859,7 +7859,7 @@
 			)
 		)
 		(property "Description" "SAM D21 Microchip SMART ARM-based Flash MCU, 48Mhz, 128K Flash w/ 4K RWW, 16K SRAM, QFN-64"
-			(at 390.525 339.09 0)
+			(at 383.54 317.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
