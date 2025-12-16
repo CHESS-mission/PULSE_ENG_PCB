@@ -4544,6 +4544,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "651-1701144"
+			(at 49.53 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser link" "https://www.mouser.ch/ProductDetail/Phoenix-Contact/1701144?qs=2WS7V4AoKFp2%2F3%2FlSacg6Q%3D%3D"
+			(at 49.53 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8b2997c2-3672-4476-a92a-29c0eabee3b5")
 		)
@@ -4591,7 +4609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_THT:L_Axial_L7.0mm_D3.3mm_P10.16mm_Horizontal_Fastron_MICC"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 161.29 72.39 0)
 			(effects
 				(font

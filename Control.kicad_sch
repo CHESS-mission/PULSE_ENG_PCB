@@ -5449,6 +5449,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "584-LT6108AIMS8-1PBF"
+			(at 254 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser link" "https://www.mouser.ch/ProductDetail/Analog-Devices/LT6108AIMS8-1PBF?qs=hVkxg5c3xu%252Bx53HojhZ%2Faw%3D%3D"
+			(at 254 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "bf55c825-0425-430b-9c9c-f500c72f21aa")
 		)
@@ -8031,6 +8049,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "595-LM139DR"
+			(at 99.06 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser link" "https://www.mouser.ch/ProductDetail/Texas-Instruments/LM139DR?qs=q81XD9WTF%252BLzGfVMa%252BrIYQ%3D%3D&utm_id=22436684839&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gad_campaignid=22433179847&gbraid=0AAAAADn_wf3NeSFef5TwkkK9q0ylaU7DA&gclid=Cj0KCQiAo4TKBhDRARIsAGW29beRf0v6AEFq77btjbKOccqhqNvt5wva_3BCM3JskwQq2kz6-058CTwaAtczEALw_wcB"
+			(at 99.06 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "15c1461e-ac58-43c1-a439-bd79596168b9")
 		)
@@ -9343,6 +9379,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 252.73 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "584-LT6108AIMS8-1PBF"
+			(at 252.73 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser link" "https://www.mouser.ch/ProductDetail/Analog-Devices/LT6108AIMS8-1PBF?qs=hVkxg5c3xu%252Bx53HojhZ%2Faw%3D%3D"
 			(at 252.73 185.42 0)
 			(effects
 				(font

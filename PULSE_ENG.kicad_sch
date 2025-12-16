@@ -12411,6 +12411,24 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "651-1730162"
+			(at 91.44 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser link" "https://www.mouser.ch/ProductDetail/Phoenix-Contact/1730162?qs=Hp4IEBVVqKI6vRU8VM9TyQ%3D%3D"
+			(at 91.44 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1200622c-8c94-4811-894f-a09908680d06")
 		)
@@ -12551,6 +12569,24 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 368.3 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "651-1723289"
+			(at 368.3 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser link" "https://www.mouser.ch/ProductDetail/Phoenix-Contact/1723289?qs=ChwaSN6Xm48Jqit%252BJi21%2Fw%3D%3D"
 			(at 368.3 299.72 0)
 			(effects
 				(font
@@ -13639,6 +13675,24 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 49.53 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "651-1701144"
+			(at 49.53 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser link" "https://www.mouser.ch/ProductDetail/Phoenix-Contact/1701144?qs=2WS7V4AoKFp2%2F3%2FlSacg6Q%3D%3D"
 			(at 49.53 233.68 0)
 			(effects
 				(font
