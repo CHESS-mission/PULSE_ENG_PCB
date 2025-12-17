@@ -484,7 +484,16 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "Net-(D1-A1)": [
+        "Vin"
+      ],
       "Net-(D10-A1)": [
+        "Vin"
+      ],
+      "Net-(D2-A1)": [
+        "Vin"
+      ],
+      "Net-(D3-A1)": [
         "Vin"
       ],
       "Net-(D8-A1)": [
@@ -494,10 +503,13 @@
         "Vin"
       ],
       "Net-(IC10-CATHODE)": [
-        "SP BackUP Deploymnet Bus"
+        "SP Deploymnet Bus"
       ],
       "Net-(IC11-CATHODE)": [
         "SP Deploymnet Bus"
+      ],
+      "Net-(IC11-IN_1)": [
+        "Vin"
       ],
       "Net-(IC12-IN_1)": [
         "Vin"
@@ -514,17 +526,26 @@
       "Net-(IC16-IN_1)": [
         "Vin"
       ],
-      "Net-(IC22-EN{slash}CLKIN)": [
+      "Net-(IC2-IN_1)": [
+        "Vin"
+      ],
+      "Net-(IC21-EN{slash}CLKIN)": [
         "5V_2"
+      ],
+      "Net-(IC22-EN{slash}CLKIN)": [
+        "5V_1+"
       ],
       "Net-(IC23-EN{slash}CLKIN)": [
         "5V_1+"
       ],
-      "Net-(IC24-VOUT{slash}FB)": [
+      "Net-(IC23-VOUT{slash}FB)": [
         "3.3V_3"
       ],
-      "Net-(IC25-VOUT{slash}FB)": [
+      "Net-(IC24-VOUT{slash}FB)": [
         "3.3V_2"
+      ],
+      "Net-(IC25-VOUT{slash}FB)": [
+        "3.3V_1+"
       ],
       "Net-(IC26-VOUT{slash}FB)": [
         "3.3V_1+"
@@ -541,6 +562,9 @@
       "Net-(IC31-IN+)": [
         "3.3V_1+"
       ],
+      "Net-(IC4-CATHODE)": [
+        "Vout"
+      ],
       "Net-(IC4-IN_1)": [
         "Vin"
       ],
@@ -553,8 +577,17 @@
       "Net-(IC7-CATHODE)": [
         "Vout"
       ],
-      "Net-(IC8-IN-)": [
+      "Net-(IC7-IN-)": [
         "3.3V_1-"
+      ],
+      "Net-(IC7-VS)": [
+        "+3.3V"
+      ],
+      "Net-(IC8-A0)": [
+        "+3.3V"
+      ],
+      "Net-(IC8-IN-)": [
+        "5V_1-"
       ],
       "Net-(IC8-VS)": [
         "+3.3V"
@@ -562,14 +595,20 @@
       "Net-(IC9-A0)": [
         "+3.3V"
       ],
+      "Net-(IC9-CATHODE)": [
+        "SP BackUP Deploymnet Bus"
+      ],
       "Net-(IC9-IN-)": [
         "5V_1-"
       ],
       "Vcc_3V3": [
         "Vcc_3V3"
       ],
-      "unconnected-(IC8-IN+-Pad10)": [
+      "unconnected-(IC7-IN+-Pad10)": [
         "3.3V_1+"
+      ],
+      "unconnected-(IC8-IN+-Pad10)": [
+        "5V_1+"
       ],
       "unconnected-(IC9-IN+-Pad10)": [
         "5V_1+"
