@@ -636,16 +636,20 @@
       "PDU"
     ],
     [
-      "8bf4b950-7d1e-4a2d-ad03-078c0e232a33",
-      "EPS_Power_Supply"
+      "d559cb01-ed4a-448e-b5db-bc9ffe95aaad",
+      "Battery_protection_and_sensing"
     ],
     [
-      "32fac869-3c72-4ec8-a514-1800b5db5371",
+      "984c726c-1952-4ddd-8f23-d487eb3ef940",
       "PCU_Converter"
     ],
     [
-      "a5146b04-836d-4686-bab4-a3d53d2a41a7",
+      "75683cf5-4f94-4e07-bfe6-a9f3fbafdc2c",
       "PCU_Control"
+    ],
+    [
+      "fa586bf4-6997-4621-b5b8-f5a2b08263bb",
+      "Pannel_protection_and_sensing"
     ]
   ],
   "text_variables": {}
